@@ -1,0 +1,2589 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[    144815,       2579]
+NotebookOptionsPosition[    144090,       2549]
+NotebookOutlinePosition[    144445,       2565]
+CellTagsIndexPosition[    144402,       2562]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{"{", 
+     RowBox[{"Yellow", ",", 
+      RowBox[{"Opacity", "[", ".8", "]"}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"p", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", 
+     RowBox[{"PolyhedronData", "[", "\"\<Archimedean\>\"", "]"}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.613950446508851*^9, 3.6139504642515783`*^9}, {
+  3.61395052917072*^9, 3.613950540198824*^9}, {3.613950573742741*^9, 
+  3.6139506844454203`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{-1, 0, 0}, {
+        Rational[-1, 2], Rational[-1, 2], -2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2], 2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], -2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], 2^Rational[-1, 2]}, {0, -1, 0}, {0, 
+        1, 0}, {Rational[1, 2], Rational[-1, 2], -2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], 2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2], -2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2], 2^Rational[-1, 2]}, {1, 0, 0}}, {{-1, 
+        0, 0}, {-0.5, -0.5, -0.7071067811865475}, {-0.5, -0.5, 
+        0.7071067811865475}, {-0.5, 0.5, -0.7071067811865475}, {-0.5, 0.5, 
+        0.7071067811865475}, {0, -1, 0}, {0, 1, 0}, {
+        0.5, -0.5, -0.7071067811865475}, {0.5, -0.5, 0.7071067811865475}, {
+        0.5, 0.5, -0.7071067811865475}, {0.5, 0.5, 0.7071067811865475}, {1, 0,
+         0}}], Polygon3DBox[{{4, 10, 8, 2}, {3, 9, 11, 5}, {9, 6, 8, 12}, {3, 
+        1, 2, 6}, {5, 7, 4, 1}, {11, 12, 10, 7}, {12, 11, 9}, {3, 5, 1}, {6, 
+        9, 3}, {5, 11, 7}, {8, 10, 12}, {1, 4, 2}, {2, 8, 6}, {7, 10, 4}}]]}],
+    ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{-1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {-1, 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {-1, 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {-1, 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+        Rational[-1, 2], Rational[-1, 2], Rational[-3, 2] - 5^
+         Rational[1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2], Rational[3, 2] + 
+         5^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], Rational[-3, 2] - 5^
+         Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[
+         1, 2]}, {
+        Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], -2 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+        Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+        Rational[1, 2], Rational[-1, 2], Rational[-3, 2] - 5^
+         Rational[1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], -2 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+        Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2]}, {
+        Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+        1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {
+        1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+        1, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {
+        1, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1, 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1, 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1, 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1, 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1}, {
+        Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1}, {
+        Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {-2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {-2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {-2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {-2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], -2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2]}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], -2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2]}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2]}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2]}, {
+        Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+        Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2], Rational[1, 2]}, {
+        Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2], Rational[-1, 2]}, {
+        Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2]}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1}, {
+        Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1, 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1, 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1, 
+         Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1, 
+         Rational[1, 4] (3 + 
+          5^Rational[
+            1, 2])}}, {{-1, -1.3090169943749475`, -3.4270509831248424`}, {-1, \
+-1.3090169943749475`, 3.4270509831248424`}, {-1, 
+         1.3090169943749475`, -3.4270509831248424`}, {-1, 1.3090169943749475`,
+          3.4270509831248424`}, {-0.5, -0.5, -3.73606797749979}, {-0.5, -0.5, 
+        3.73606797749979}, {-0.5, 0.5, -3.73606797749979}, {-0.5, 0.5, 
+        3.73606797749979}, {-0.5, -3.73606797749979, -0.5}, {-0.5, \
+-3.73606797749979, 
+        0.5}, {-0.5, -2.118033988749895, -3.118033988749895}, {-0.5, \
+-2.118033988749895, 3.118033988749895}, {-0.5, 3.73606797749979, -0.5}, {-0.5,
+         3.73606797749979, 0.5}, {-0.5, 
+        2.118033988749895, -3.118033988749895}, {-0.5, 2.118033988749895, 
+        3.118033988749895}, {0.5, -0.5, -3.73606797749979}, {0.5, -0.5, 
+        3.73606797749979}, {0.5, 0.5, -3.73606797749979}, {0.5, 0.5, 
+        3.73606797749979}, {0.5, -3.73606797749979, -0.5}, {
+        0.5, -3.73606797749979, 0.5}, {
+        0.5, -2.118033988749895, -3.118033988749895}, {
+        0.5, -2.118033988749895, 3.118033988749895}, {0.5, 
+        3.73606797749979, -0.5}, {0.5, 3.73606797749979, 0.5}, {0.5, 
+        2.118033988749895, -3.118033988749895}, {0.5, 2.118033988749895, 
+        3.118033988749895}, {1, -1.3090169943749475`, -3.4270509831248424`}, {
+        1, -1.3090169943749475`, 3.4270509831248424`}, {
+        1, 1.3090169943749475`, -3.4270509831248424`}, {
+        1, 1.3090169943749475`, 
+         3.4270509831248424`}, {-3.4270509831248424`, -1, \
+-1.3090169943749475`}, {-3.4270509831248424`, -1, 
+         1.3090169943749475`}, {-3.4270509831248424`, 
+         1, -1.3090169943749475`}, {-3.4270509831248424`, 1, 
+         1.3090169943749475`}, {-2.9270509831248424`, -1.8090169943749475`, \
+-1.618033988749895}, {-2.9270509831248424`, -1.8090169943749475`, 
+        1.618033988749895}, {-2.9270509831248424`, 
+        1.8090169943749475`, -1.618033988749895}, {-2.9270509831248424`, 
+        1.8090169943749475`, 
+        1.618033988749895}, {-1.8090169943749475`, -1.618033988749895, \
+-2.9270509831248424`}, {-1.8090169943749475`, -1.618033988749895, 
+        2.9270509831248424`}, {-1.8090169943749475`, 
+        1.618033988749895, -2.9270509831248424`}, {-1.8090169943749475`, 
+        1.618033988749895, 
+        2.9270509831248424`}, {-1.3090169943749475`, -3.4270509831248424`, \
+-1}, {-1.3090169943749475`, -3.4270509831248424`, 
+         1}, {-1.3090169943749475`, -2.4270509831248424`, \
+-2.618033988749895}, {-1.3090169943749475`, -2.4270509831248424`, 
+        2.618033988749895}, {-1.3090169943749475`, 
+        2.4270509831248424`, -2.618033988749895}, {-1.3090169943749475`, 
+        2.4270509831248424`, 
+        2.618033988749895}, {-1.3090169943749475`, 
+         3.4270509831248424`, -1}, {-1.3090169943749475`, 3.4270509831248424`,
+          1}, {-2.618033988749895, -1.3090169943749475`, \
+-2.4270509831248424`}, {-2.618033988749895, -1.3090169943749475`, 
+        2.4270509831248424`}, {-2.618033988749895, 
+        1.3090169943749475`, -2.4270509831248424`}, {-2.618033988749895, 
+        1.3090169943749475`, 
+        2.4270509831248424`}, {-3.73606797749979, -0.5, -0.5}, \
+{-3.73606797749979, -0.5, 0.5}, {-3.73606797749979, 
+        0.5, -0.5}, {-3.73606797749979, 0.5, 
+        0.5}, {-1.618033988749895, -2.9270509831248424`, \
+-1.8090169943749475`}, {-1.618033988749895, -2.9270509831248424`, 
+        1.8090169943749475`}, {-1.618033988749895, 
+        2.9270509831248424`, -1.8090169943749475`}, {-1.618033988749895, 
+        2.9270509831248424`, 
+        1.8090169943749475`}, {-3.118033988749895, -0.5, -2.118033988749895}, \
+{-3.118033988749895, -0.5, 2.118033988749895}, {-3.118033988749895, 
+        0.5, -2.118033988749895}, {-3.118033988749895, 0.5, 
+        2.118033988749895}, {-2.118033988749895, -3.118033988749895, -0.5}, \
+{-2.118033988749895, -3.118033988749895, 0.5}, {-2.118033988749895, 
+        3.118033988749895, -0.5}, {-2.118033988749895, 3.118033988749895, 
+        0.5}, {-2.4270509831248424`, -2.618033988749895, \
+-1.3090169943749475`}, {-2.4270509831248424`, -2.618033988749895, 
+        1.3090169943749475`}, {-2.4270509831248424`, 
+        2.618033988749895, -1.3090169943749475`}, {-2.4270509831248424`, 
+        2.618033988749895, 1.3090169943749475`}, {
+        1.618033988749895, -2.9270509831248424`, -1.8090169943749475`}, {
+        1.618033988749895, -2.9270509831248424`, 1.8090169943749475`}, {
+        1.618033988749895, 2.9270509831248424`, -1.8090169943749475`}, {
+        1.618033988749895, 2.9270509831248424`, 1.8090169943749475`}, {
+        2.4270509831248424`, -2.618033988749895, -1.3090169943749475`}, {
+        2.4270509831248424`, -2.618033988749895, 1.3090169943749475`}, {
+        2.4270509831248424`, 2.618033988749895, -1.3090169943749475`}, {
+        2.4270509831248424`, 2.618033988749895, 1.3090169943749475`}, {
+        3.73606797749979, -0.5, -0.5}, {3.73606797749979, -0.5, 0.5}, {
+        3.73606797749979, 0.5, -0.5}, {3.73606797749979, 0.5, 0.5}, {
+        2.118033988749895, -3.118033988749895, -0.5}, {
+        2.118033988749895, -3.118033988749895, 0.5}, {2.118033988749895, 
+        3.118033988749895, -0.5}, {2.118033988749895, 3.118033988749895, 
+        0.5}, {1.3090169943749475`, -3.4270509831248424`, -1}, {
+        1.3090169943749475`, -3.4270509831248424`, 1}, {
+        1.3090169943749475`, -2.4270509831248424`, -2.618033988749895}, {
+        1.3090169943749475`, -2.4270509831248424`, 2.618033988749895}, {
+        1.3090169943749475`, 2.4270509831248424`, -2.618033988749895}, {
+        1.3090169943749475`, 2.4270509831248424`, 2.618033988749895}, {
+        1.3090169943749475`, 3.4270509831248424`, -1}, {
+        1.3090169943749475`, 3.4270509831248424`, 1}, {
+        2.618033988749895, -1.3090169943749475`, -2.4270509831248424`}, {
+        2.618033988749895, -1.3090169943749475`, 2.4270509831248424`}, {
+        2.618033988749895, 1.3090169943749475`, -2.4270509831248424`}, {
+        2.618033988749895, 1.3090169943749475`, 2.4270509831248424`}, {
+        3.118033988749895, -0.5, -2.118033988749895}, {
+        3.118033988749895, -0.5, 2.118033988749895}, {3.118033988749895, 
+        0.5, -2.118033988749895}, {3.118033988749895, 0.5, 
+        2.118033988749895}, {
+        1.8090169943749475`, -1.618033988749895, -2.9270509831248424`}, {
+        1.8090169943749475`, -1.618033988749895, 2.9270509831248424`}, {
+        1.8090169943749475`, 1.618033988749895, -2.9270509831248424`}, {
+        1.8090169943749475`, 1.618033988749895, 2.9270509831248424`}, {
+        2.9270509831248424`, -1.8090169943749475`, -1.618033988749895}, {
+        2.9270509831248424`, -1.8090169943749475`, 1.618033988749895}, {
+        2.9270509831248424`, 1.8090169943749475`, -1.618033988749895}, {
+        2.9270509831248424`, 1.8090169943749475`, 1.618033988749895}, {
+        3.4270509831248424`, -1, -1.3090169943749475`}, {
+        3.4270509831248424`, -1, 1.3090169943749475`}, {
+        3.4270509831248424`, 1, -1.3090169943749475`}, {
+        3.4270509831248424`, 1, 1.3090169943749475`}}], 
+      Polygon3DBox[{{2, 6, 8, 4, 44, 56, 68, 66, 54, 42}, {109, 29, 17, 19, 
+        31, 111, 103, 107, 105, 101}, {24, 30, 18, 6, 2, 12}, {7, 3, 15, 27, 
+        31, 19}, {58, 57, 33, 37, 73, 69, 70, 74, 38, 34}, {84, 116, 120, 88, 
+        87, 119, 115, 83, 91, 92}, {90, 89, 81, 113, 117, 85, 86, 118, 114, 
+        82}, {36, 40, 76, 72, 71, 75, 39, 35, 59, 60}, {5, 17, 29, 23, 11, 
+        1}, {4, 8, 20, 32, 28, 16}, {67, 55, 43, 3, 7, 5, 1, 41, 53, 65}, {18,
+         30, 110, 102, 106, 108, 104, 112, 32, 20}, {79, 83, 115, 103, 111, 
+        97}, {38, 74, 62, 48, 42, 54}, {4, 16, 50, 44}, {23, 29, 109, 95}, {
+        96, 110, 30, 24}, {43, 49, 15, 3}, {53, 41, 47, 61, 73, 37}, {98, 112,
+         104, 116, 84, 80}, {69, 45, 9, 10, 46, 70}, {26, 100, 92, 91, 99, 
+        25}, {82, 114, 102, 110, 96, 78}, {55, 39, 75, 63, 49, 43}, {1, 11, 
+        47, 41}, {28, 32, 112, 98}, {61, 47, 11, 23, 95, 77, 93, 21, 9, 45}, {
+        50, 16, 28, 98, 80, 100, 26, 14, 52, 64}, {97, 111, 31, 27}, {42, 48, 
+        12, 2}, {44, 50, 64, 76, 40, 56}, {77, 95, 109, 101, 113, 81}, {63, 
+        51, 13, 25, 99, 79, 97, 27, 15, 49}, {46, 10, 22, 94, 78, 96, 24, 12, 
+        48, 62}, {52, 14, 13, 51, 71, 72}, {22, 21, 93, 89, 90, 94}, {115, 
+        119, 107, 103}, {34, 38, 54, 66}, {71, 51, 63, 75}, {94, 90, 82, 
+        78}, {114, 118, 106, 102}, {35, 39, 55, 67}, {70, 46, 62, 74}, {99, 
+        91, 83, 79}, {65, 53, 37, 33}, {104, 108, 120, 116}, {77, 81, 89, 
+        93}, {76, 64, 52, 72}, {59, 35, 67, 65, 33, 57}, {106, 118, 86, 88, 
+        120, 108}, {68, 56, 40, 36}, {101, 105, 117, 113}, {80, 84, 92, 
+        100}, {73, 61, 45, 69}, {34, 66, 68, 36, 60, 58}, {105, 107, 119, 87, 
+        85, 117}, {7, 19, 17, 5}, {6, 18, 20, 8}, {14, 26, 25, 13}, {9, 21, 
+        22, 10}, {58, 60, 59, 57}, {85, 87, 88, 86}}]]},
+    ImageSize->{326.05808276397215`, 376.},
+    ViewPoint->{-0.9570535662426172, -3.2240945651450783`, \
+-0.3731791879838132},
+    ViewVertical->{-0.18395009628632755`, -0.6509698518213691, 
+     0.736478522494659}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[-1, 2] - 2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 2^
+         Rational[1, 2]}, {
+        Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2] - 2^
+         Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 
+         2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 2^
+         Rational[1, 2]}, {
+        Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-1, 2] - 2^
+         Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2] + 
+         2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[-1, 2] - 
+         2^Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[-1, 2] - 
+         2^Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 2^
+         Rational[1, 2], Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 2^
+         Rational[1, 2], Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2],
+          Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2],
+          Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2], 
+         Rational[-1, 2] - 2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2], 
+         Rational[-1, 2] - 2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[1, 2], Rational[1, 2] + 
+         2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 
+         2^Rational[1, 2], Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2] - 2^Rational[1, 2], Rational[
+         1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[1, 2], Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], 
+         Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], Rational[
+         1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], Rational[1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], 
+         Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], Rational[
+         1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2],
+          Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2],
+          Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[1, 2]}}, CompressedData["
+1:eJxTTMoPSmViYGAwAGJmBhh4sP/ZXHtj/4DP9met69PmLfi3H4e4PUz8KUR8
+P7p6NHG4epg6mHno4jB9aOL2ONTbo6m3x+F+dHGYOfY43I8uDlePw/32ONxv
+j8P99ujuxxUeuPyNy35c9hAZr4TCC1c6QI8HgvGJI5xwhh+R6YxQ/OFKl8SG
+C077cIUjunoi4xlXeOAKV2LjCaf/icwfOPMhofRNKP4BMZzkRg==
+       "]], 
+      Polygon3DBox[{{44, 42, 17, 19}, {14, 6, 3, 11}, {34, 36, 27, 25}, {8, 
+        16, 9, 1}, {20, 18, 41, 43}, {12, 4, 5, 13}, {26, 28, 35, 33}, {2, 10,
+         15, 7}, {45, 23, 24, 46}, {39, 29, 30, 40}, {48, 22, 21, 47}, {38, 
+        32, 31, 37}, {9, 19, 17, 11, 3, 25, 27, 1}, {2, 28, 26, 4, 12, 18, 20,
+         10}, {41, 48, 47, 42, 44, 45, 46, 43}, {35, 38, 37, 36, 34, 39, 40, 
+        33}, {15, 24, 23, 16, 8, 31, 32, 7}, {5, 30, 29, 6, 14, 21, 22, 13}, {
+        46, 24, 15, 10, 20, 43}, {35, 28, 2, 7, 32, 38}, {41, 18, 12, 13, 22, 
+        48}, {40, 30, 5, 4, 26, 33}, {44, 19, 9, 16, 23, 45}, {37, 31, 8, 1, 
+        27, 36}, {47, 21, 14, 11, 17, 42}, {34, 25, 3, 6, 29, 39}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{0, Rational[1, 2] (-1 - 5^Rational[1, 2]), 0}, {
+        0, Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         0}, {(Rational[1, 8] + Rational[-1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2], 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), -(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[1, 8] + 
+          Rational[-1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), -(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), (
+          Rational[1, 10] (5 + 5^Rational[1, 2]))^
+         Rational[1, 2]}, {(Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), (
+          Rational[1, 10] (5 + 5^Rational[1, 2]))^
+         Rational[1, 2]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], (1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+         1 - 5 #^2 + 5 #^4& , 1, 0]}, {(Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+         1 - 5 #^2 + 5 #^4& , 1, 0]}, {-(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2], 0, Root[1 - 5 #^2 + 5 #^4& , 1, 0]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], -(1 + 2 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], -(1 + 2 5^Rational[-1, 2])^Rational[1, 2]}, {(1 + 
+          2 5^Rational[-1, 2])^Rational[1, 2], 
+         0, (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+         Rational[1, 2]}, {(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         Rational[1, 2], Rational[-1, 8] (1 + 5^Rational[1, 2])^2, 
+         0}, {(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         0}, {(Rational[1, 10] (5 + 5^Rational[1, 2]))^Rational[1, 2], 
+         0, -(1 + 2 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], Rational[-1, 8] (1 + 5^Rational[1, 2])^2, 0}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), 0}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], 0}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], 0}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], 0}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], 0}, {
+        Root[1 - 5 #^2 + 5 #^4& , 1, 0], 0, (1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), (
+          Rational[1, 10] (5 + 5^Rational[1, 2]))^Rational[1, 2]}, {
+        Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (
+          Rational[1, 10] (5 + 5^Rational[1, 2]))^Rational[1, 2]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+         1 - 5 #^2 + 5 #^4& , 1, 0]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+         1 - 5 #^2 + 5 #^4& , 1, 0]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), (1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2]}}, {{0, -1.618033988749895, 0}, {
+        0, 1.618033988749895, 0}, {
+        0.2628655560595668, -0.8090169943749475, -1.3763819204711736`}, {
+        0.2628655560595668, 0.8090169943749475, -1.3763819204711736`}, {
+        0.42532540417601994`, -1.3090169943749475`, 0.85065080835204}, {
+        0.42532540417601994`, 1.3090169943749475`, 0.85065080835204}, {
+        0.6881909602355868, -0.5, 1.3763819204711736`}, {0.6881909602355868, 
+        0.5, 1.3763819204711736`}, {
+        1.1135163644116066`, -0.8090169943749475, -0.85065080835204}, {
+        1.1135163644116066`, 
+        0.8090169943749475, -0.85065080835204}, {-1.3763819204711736`, 
+         0, -0.85065080835204}, {-0.6881909602355868, -0.5, \
+-1.3763819204711736`}, {-0.6881909602355868, 0.5, -1.3763819204711736`}, {
+        1.3763819204711736`, 0, 0.85065080835204}, {
+        0.9510565162951535, -1.3090169943749475`, 0}, {
+        0.9510565162951535, 1.3090169943749475`, 0}, {
+        0.85065080835204, 
+         0, -1.3763819204711736`}, {-0.9510565162951535, -1.3090169943749475`,
+          0}, {-0.9510565162951535, 1.3090169943749475`, 
+         0}, {-1.5388417685876268`, -0.5, 0}, {-1.5388417685876268`, 0.5, 
+         0}, {1.5388417685876268`, -0.5, 0}, {
+        1.5388417685876268`, 0.5, 0}, {-0.85065080835204, 0, 
+         1.3763819204711736`}, {-1.1135163644116068`, -0.8090169943749475, 
+        0.85065080835204}, {-1.1135163644116068`, 0.8090169943749475, 
+        0.85065080835204}, {-0.42532540417601994`, -1.3090169943749475`, \
+-0.85065080835204}, {-0.42532540417601994`, 
+        1.3090169943749475`, -0.85065080835204}, {-0.2628655560595668, \
+-0.8090169943749475, 1.3763819204711736`}, {-0.2628655560595668, 
+        0.8090169943749475, 1.3763819204711736`}}], 
+      Polygon3DBox[{{30, 24, 29, 7, 8}, {26, 24, 30}, {25, 29, 24}, {5, 7, 
+        29}, {14, 8, 7}, {6, 30, 8}, {16, 2, 6}, {19, 21, 26}, {20, 18, 25}, {
+        1, 15, 5}, {22, 23, 14}, {2, 19, 26, 30, 6}, {21, 20, 25, 24, 26}, {
+        18, 1, 5, 29, 25}, {15, 22, 14, 7, 5}, {23, 16, 6, 8, 14}, {12, 13, 4,
+         17, 3}, {3, 17, 9}, {17, 4, 10}, {4, 13, 28}, {13, 12, 11}, {12, 3, 
+        27}, {27, 1, 18}, {9, 22, 15}, {10, 16, 23}, {28, 19, 2}, {11, 20, 
+        21}, {27, 3, 9, 15, 1}, {9, 17, 10, 23, 22}, {10, 4, 28, 2, 16}, {28, 
+        13, 11, 21, 19}, {11, 12, 27, 18, 20}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-1, 2], Rational[-1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[-1, 2], Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], Rational[
+         1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[
+         1, 2]}, {
+        0, (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        0, (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+        0, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+        0, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+        Rational[1, 2], Rational[-1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[1, 2], Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+        Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[
+         1, 2]}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         0, (-3 + 5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (-5 - 5^Rational[1, 2]), 0, 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), (-3 + 
+          5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), (-3 + 
+          5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (1 + 5^Rational[1, 2])}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2], 
+         Rational[-1, 2]}, {-1 + Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[-1, 2], Rational[1, 2]}, {-1 + 
+         Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2], 
+         Rational[-1, 2]}, {-1 + Rational[-1, 2] 5^Rational[1, 2], Rational[
+         1, 2], Rational[1, 2]}, {(-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         0}, {(-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {(-3 + 
+          5^Rational[1, 2])^(-1), Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {(-3 + 
+          5^Rational[1, 2])^(-1), Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {(-3 + 
+          5^Rational[1, 2])^(-1), Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {(-3 + 
+          5^Rational[1, 2])^(-1), Rational[1, 4] (5 + 5^Rational[1, 2]), 0}, {
+        Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), (-3 + 
+          5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), (-3 + 
+          5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), (-3 + 5^Rational[1, 2])^(-1), 
+         Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2] (2 + 5^Rational[1, 2]), Rational[1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 0}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+        Rational[1, 4] (3 + 5^Rational[1, 2]), 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 0}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         0, (-3 + 5^Rational[1, 2])^(-1)}, {
+        Rational[1, 4] (5 + 5^Rational[1, 2]), 0, 
+         Rational[1, 4] (3 + 
+          5^Rational[1, 2])}}, {{-0.5, -0.5, -2.118033988749895}, {-0.5, -0.5,
+         2.118033988749895}, {-0.5, 0.5, -2.118033988749895}, {-0.5, 0.5, 
+        2.118033988749895}, {-0.5, -2.118033988749895, -0.5}, {-0.5, \
+-2.118033988749895, 0.5}, {-0.5, 2.118033988749895, -0.5}, {-0.5, 
+        2.118033988749895, 0.5}, {
+        0, -1.3090169943749477`, -1.8090169943749475`}, {
+        0, -1.3090169943749477`, 1.8090169943749475`}, {
+        0, 1.3090169943749475`, -1.8090169943749475`}, {
+        0, 1.3090169943749475`, 1.8090169943749475`}, {
+        0.5, -0.5, -2.118033988749895}, {0.5, -0.5, 2.118033988749895}, {0.5, 
+        0.5, -2.118033988749895}, {0.5, 0.5, 2.118033988749895}, {
+        0.5, -2.118033988749895, -0.5}, {0.5, -2.118033988749895, 0.5}, {0.5, 
+        2.118033988749895, -0.5}, {0.5, 2.118033988749895, 
+        0.5}, {-1.8090169943749475`, 
+         0, -1.3090169943749477`}, {-1.8090169943749475`, 0, 
+         1.3090169943749475`}, {-0.8090169943749475, -1.618033988749895, \
+-1.3090169943749477`}, {-0.8090169943749475, -1.618033988749895, 
+        1.3090169943749475`}, {-0.8090169943749475, 
+        1.618033988749895, -1.3090169943749477`}, {-0.8090169943749475, 
+        1.618033988749895, 
+        1.3090169943749475`}, {-1.618033988749895, -1.3090169943749477`, \
+-0.8090169943749475}, {-1.618033988749895, -1.3090169943749477`, 
+        0.8090169943749475}, {-1.618033988749895, 
+        1.3090169943749475`, -0.8090169943749475}, {-1.618033988749895, 
+        1.3090169943749475`, 
+        0.8090169943749475}, {-2.118033988749895, -0.5, -0.5}, \
+{-2.118033988749895, -0.5, 0.5}, {-2.118033988749895, 
+        0.5, -0.5}, {-2.118033988749895, 0.5, 
+        0.5}, {-1.3090169943749477`, -1.8090169943749475`, 
+         0}, {-1.3090169943749477`, -0.8090169943749475, -1.618033988749895}, \
+{-1.3090169943749477`, -0.8090169943749475, 
+        1.618033988749895}, {-1.3090169943749477`, 
+        0.8090169943749475, -1.618033988749895}, {-1.3090169943749477`, 
+        0.8090169943749475, 
+        1.618033988749895}, {-1.3090169943749477`, 1.8090169943749475`, 0}, {
+        0.8090169943749475, -1.618033988749895, -1.3090169943749477`}, {
+        0.8090169943749475, -1.618033988749895, 1.3090169943749475`}, {
+        0.8090169943749475, 1.618033988749895, -1.3090169943749477`}, {
+        0.8090169943749475, 1.618033988749895, 1.3090169943749475`}, {
+        1.618033988749895, -1.3090169943749477`, -0.8090169943749475}, {
+        1.618033988749895, -1.3090169943749477`, 0.8090169943749475}, {
+        1.618033988749895, 1.3090169943749475`, -0.8090169943749475}, {
+        1.618033988749895, 1.3090169943749475`, 0.8090169943749475}, {
+        2.118033988749895, -0.5, -0.5}, {2.118033988749895, -0.5, 0.5}, {
+        2.118033988749895, 0.5, -0.5}, {2.118033988749895, 0.5, 0.5}, {
+        1.3090169943749475`, -1.8090169943749475`, 0}, {
+        1.3090169943749475`, -0.8090169943749475, -1.618033988749895}, {
+        1.3090169943749475`, -0.8090169943749475, 1.618033988749895}, {
+        1.3090169943749475`, 0.8090169943749475, -1.618033988749895}, {
+        1.3090169943749475`, 0.8090169943749475, 1.618033988749895}, {
+        1.3090169943749475`, 1.8090169943749475`, 0}, {
+        1.8090169943749475`, 0, -1.3090169943749477`}, {
+        1.8090169943749475`, 0, 1.3090169943749475`}}], 
+      Polygon3DBox[{{36, 23, 27}, {37, 28, 24}, {40, 8, 7}, {35, 5, 6}, {38, 
+        29, 25}, {39, 26, 30}, {10, 14, 2}, {9, 1, 13}, {12, 4, 16}, {11, 15, 
+        3}, {54, 45, 41}, {55, 42, 46}, {58, 19, 20}, {53, 18, 17}, {56, 43, 
+        47}, {57, 48, 44}, {34, 32, 22}, {33, 21, 31}, {59, 51, 49}, {60, 50, 
+        52}, {27, 31, 21, 36}, {23, 36, 1, 9}, {10, 2, 37, 24}, {37, 22, 32, 
+        28}, {8, 40, 30, 26}, {25, 29, 40, 7}, {35, 27, 23, 5}, {6, 24, 28, 
+        35}, {3, 38, 25, 11}, {21, 33, 29, 38}, {39, 30, 34, 22}, {12, 26, 39,
+         4}, {55, 14, 10, 42}, {41, 9, 13, 54}, {57, 44, 12, 16}, {15, 11, 43,
+         56}, {45, 54, 59, 49}, {50, 60, 55, 46}, {48, 58, 20, 44}, {43, 19, 
+        58, 47}, {53, 17, 41, 45}, {46, 42, 18, 53}, {59, 56, 47, 51}, {52, 
+        48, 57, 60}, {31, 32, 34, 33}, {17, 18, 6, 5}, {1, 3, 15, 13}, {14, 
+        16, 4, 2}, {7, 8, 20, 19}, {51, 52, 50, 49}, {3, 1, 36, 21, 38}, {22, 
+        37, 2, 4, 39}, {29, 33, 34, 30, 40}, {27, 35, 28, 32, 31}, {42, 10, 
+        24, 6, 18}, {41, 17, 5, 23, 9}, {20, 8, 26, 12, 44}, {11, 25, 7, 19, 
+        43}, {56, 59, 54, 13, 15}, {57, 16, 14, 55, 60}, {58, 48, 52, 51, 
+        47}, {49, 50, 46, 53, 45}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-1, 2], Rational[-1, 2], Rational[-1, 2] - 2^
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], Rational[-1, 2] - 2^
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2] - 2^Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2] - 2^Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], Rational[-1, 2] - 2^
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2], Rational[-1, 2] - 2^
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-1, 2] - 2^Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[-1, 2] - 2^Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2]}, {
+        Rational[-1, 2] - 2^Rational[-1, 2], Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[-1, 2], Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[-1, 2] - 2^Rational[-1, 2], Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[-1, 2] - 2^Rational[-1, 2], Rational[1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[
+         1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], 
+         Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[
+         1, 2]}}, CompressedData["
+1:eJxTTMoPSmViYGCQAGJmBhh4sB9GP5trb+wf8Hk/DnF7NHF7HOrt0dUTMBeu
+j4B96OLoNLHmwWkc6tHdT8ifhPTjChdc5uIKL1z24fI3LncQik9c4YoRfgAm
+/6Qn
+       "]], 
+      Polygon3DBox[{{3, 11, 9, 1}, {2, 10, 12, 4}, {24, 22, 21, 23}, {19, 17, 
+        18, 20}, {5, 13, 14, 6}, {8, 16, 15, 7}, {13, 21, 22, 14}, {16, 24, 
+        23, 15}, {6, 18, 17, 5}, {7, 19, 20, 8}, {6, 14, 10, 2}, {4, 12, 16, 
+        8}, {22, 24, 12, 10}, {2, 4, 20, 18}, {1, 9, 13, 5}, {7, 15, 11, 3}, {
+        9, 11, 23, 21}, {17, 19, 3, 1}, {22, 10, 14}, {16, 12, 24}, {6, 2, 
+        18}, {20, 4, 8}, {13, 9, 21}, {23, 11, 15}, {17, 1, 5}, {7, 3, 
+        19}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 1, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 1, 0]}, {
+        Root[-1 + 4 #^2 - 16 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 + 12 #^2 - 32 #^4 + 32 #^6& , 2, 0], 
+         Root[-1 - 12 #^2 - 32 #^4 + 32 #^6& , 2, 0]}}, CompressedData["
+1:eJxTTMoPSmViYGCQAGJmIG564COl6vFpf/zH59cPzb26P1NghqnYw8f7YeKx
+EHF7qLg9TBymDiaPJm4PM68RIm6PZr49TBzNfLh6GB/dHJh+mD6YPCH70c1D
+9ych9+HyNy53ofuHUDjiigdc4YTLf7jiA1d84oofXOGK7m8AcN86Qg==
+       "]], 
+      Polygon3DBox[{{3, 1, 17}, {3, 17, 9}, {3, 19, 2}, {3, 9, 19}, {1, 4, 
+        20}, {1, 20, 11}, {1, 11, 17}, {2, 19, 12}, {2, 18, 4}, {2, 12, 18}, {
+        4, 18, 10}, {4, 10, 20}, {17, 11, 13}, {19, 9, 15}, {18, 12, 14}, {20,
+         10, 16}, {9, 21, 15}, {11, 23, 13}, {12, 24, 14}, {10, 22, 16}, {13, 
+        23, 7}, {13, 7, 21}, {15, 21, 5}, {15, 5, 24}, {16, 22, 6}, {16, 6, 
+        23}, {14, 24, 8}, {14, 8, 22}, {21, 7, 5}, {23, 6, 7}, {24, 5, 8}, {
+        22, 8, 6}, {1, 3, 2, 4}, {21, 9, 17, 13}, {24, 12, 19, 15}, {10, 18, 
+        14, 22}, {11, 20, 16, 23}, {8, 5, 7, 6}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Root[
+         3721 - 65628 #^2 + 31104 #^4 + 1050624 #^6 + 2426112 #^8 - 
+          13188096 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 68 #^2 + 1216 #^4 - 5888 #^6 + 9472 #^8 - 5120 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[3721 - 65628 #^2 + 31104 #^4 + 1050624 #^6 + 2426112 #^8 - 
+          13188096 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 68 #^2 + 1216 #^4 - 5888 #^6 + 9472 #^8 - 5120 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[5041 - 289884 #^2 + 2745792 #^4 - 10091520 #^6 + 17190144 #^8 - 
+          13188096 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 68 #^2 + 1216 #^4 - 5888 #^6 + 9472 #^8 - 5120 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[5041 - 289884 #^2 + 2745792 #^4 - 10091520 #^6 + 17190144 #^8 - 
+          13188096 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 68 #^2 + 1216 #^4 - 5888 #^6 + 9472 #^8 - 5120 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 1272 #^2 + 158544 #^4 + 763776 #^6 - 787968 #^8 - 
+          12939264 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 56 #^2 + 912 #^4 - 6016 #^6 + 15872 #^8 - 12288 #^10 + 
+          4096 #^12& , 6, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[1 - 1272 #^2 + 158544 #^4 + 763776 #^6 - 787968 #^8 - 
+          12939264 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 56 #^2 + 912 #^4 - 6016 #^6 + 15872 #^8 - 12288 #^10 + 
+          4096 #^12& , 6, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[17161 - 386076 #^2 + 3170448 #^4 - 11460096 #^6 + 17750016 #^8 - 
+          12192768 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 100 #^2 + 1872 #^4 - 9472 #^6 + 9216 #^8 - 13312 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[17161 - 386076 #^2 + 3170448 #^4 - 11460096 #^6 + 17750016 #^8 - 
+          12192768 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 100 #^2 + 1872 #^4 - 9472 #^6 + 9216 #^8 - 13312 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[3481 - 83304 #^2 + 701136 #^4 - 2782080 #^6 + 7423488 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 56 #^2 + 912 #^4 - 6016 #^6 + 15872 #^8 - 12288 #^10 + 
+          4096 #^12& , 3, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[3481 - 83304 #^2 + 701136 #^4 - 2782080 #^6 + 7423488 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 56 #^2 + 912 #^4 - 6016 #^6 + 15872 #^8 - 12288 #^10 + 
+          4096 #^12& , 3, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[6241 - 211068 #^2 + 2283984 #^4 - 9542016 #^6 + 16941312 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 36 #^2 + 272 #^4 + 384 #^6 - 768 #^8 - 12288 #^10 + 4096 #^12& , 
+          8, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[6241 - 211068 #^2 + 2283984 #^4 - 9542016 #^6 + 16941312 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 36 #^2 + 272 #^4 + 384 #^6 - 768 #^8 - 12288 #^10 + 4096 #^12& , 
+          8, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[361 - 83964 #^2 + 2241792 #^4 - 11102400 #^6 + 17812224 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 116 #^2 + 3456 #^4 - 7488 #^6 + 1792 #^8 - 8192 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[361 - 83964 #^2 + 2241792 #^4 - 11102400 #^6 + 17812224 #^8 - 
+          11943936 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 116 #^2 + 3456 #^4 - 7488 #^6 + 1792 #^8 - 8192 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[361 - 56064 #^2 + 1461024 #^4 + 1707264 #^6 - 373248 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 160 #^2 + 1312 #^4 - 2048 #^6 - 3584 #^8 + 3072 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[361 - 56064 #^2 + 1461024 #^4 + 1707264 #^6 - 373248 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 160 #^2 + 1312 #^4 - 2048 #^6 - 3584 #^8 + 3072 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[14641 - 604032 #^2 + 5589216 #^4 - 15704064 #^6 + 18537984 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 160 #^2 + 1312 #^4 - 2048 #^6 - 3584 #^8 + 3072 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[14641 - 604032 #^2 + 5589216 #^4 - 15704064 #^6 + 18537984 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 160 #^2 + 1312 #^4 - 2048 #^6 - 3584 #^8 + 3072 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[961 - 109116 #^2 + 1807488 #^4 - 6492096 #^6 + 11010816 #^8 - 
+          10948608 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 116 #^2 + 3456 #^4 - 7488 #^6 + 1792 #^8 - 8192 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[961 - 109116 #^2 + 1807488 #^4 - 6492096 #^6 + 11010816 #^8 - 
+          10948608 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 116 #^2 + 3456 #^4 - 7488 #^6 + 1792 #^8 - 8192 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[5041 - 240000 #^2 + 3312288 #^4 - 11062656 #^6 + 15365376 #^8 - 
+          10450944 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 48 #^2 + 672 #^4 - 3456 #^6 + 4352 #^8 + 6144 #^10 + 4096 #^12& ,
+           7, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[5041 - 240000 #^2 + 3312288 #^4 - 11062656 #^6 + 15365376 #^8 - 
+          10450944 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 48 #^2 + 672 #^4 - 3456 #^6 + 4352 #^8 + 6144 #^10 + 4096 #^12& ,
+           7, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[11881 - 272016 #^2 + 2297376 #^4 - 8899200 #^6 + 15614208 #^8 - 
+          10450944 #^10 + 2985984 #^12& , 3, 0], Root[
+         1 - 48 #^2 + 672 #^4 - 3456 #^6 + 4352 #^8 + 6144 #^10 + 4096 #^12& ,
+           2, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 1, 0]}, {
+        Root[11881 - 272016 #^2 + 2297376 #^4 - 8899200 #^6 + 15614208 #^8 - 
+          10450944 #^10 + 2985984 #^12& , 6, 0], Root[
+         1 - 48 #^2 + 672 #^4 - 3456 #^6 + 4352 #^8 + 6144 #^10 + 4096 #^12& ,
+           2, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 8, 0]}, {
+        Root[361 - 38172 #^2 + 1001376 #^4 - 4472064 #^6 + 8169984 #^8 - 
+          9953280 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 132 #^2 + 4256 #^4 - 3072 #^6 - 9728 #^8 + 4096 #^12& , 1, 0], 
+         Root[1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[361 - 38172 #^2 + 1001376 #^4 - 4472064 #^6 + 8169984 #^8 - 
+          9953280 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 132 #^2 + 4256 #^4 - 3072 #^6 - 9728 #^8 + 4096 #^12& , 1, 0], 
+         Root[1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[5041 - 180336 #^2 + 912816 #^4 + 1028160 #^6 - 4396032 #^8 - 
+          9206784 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 128 #^2 + 1392 #^4 - 4672 #^6 + 4096 #^8 - 1024 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[5041 - 180336 #^2 + 912816 #^4 + 1028160 #^6 - 4396032 #^8 - 
+          9206784 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 128 #^2 + 1392 #^4 - 4672 #^6 + 4096 #^8 - 1024 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[6241 - 97356 #^2 + 351648 #^4 + 110592 #^6 + 870912 #^8 - 
+          8957952 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 132 #^2 + 4256 #^4 - 3072 #^6 - 9728 #^8 + 4096 #^12& , 8, 0], 
+         Root[841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[6241 - 97356 #^2 + 351648 #^4 + 110592 #^6 + 870912 #^8 - 
+          8957952 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 132 #^2 + 4256 #^4 - 3072 #^6 - 9728 #^8 + 4096 #^12& , 8, 0], 
+         Root[841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[7921 - 275484 #^2 + 2564496 #^4 - 8951040 #^6 + 13022208 #^8 - 
+          8211456 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 100 #^2 + 1872 #^4 - 9472 #^6 + 9216 #^8 - 13312 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[7921 - 275484 #^2 + 2564496 #^4 - 8951040 #^6 + 13022208 #^8 - 
+          8211456 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 100 #^2 + 1872 #^4 - 9472 #^6 + 9216 #^8 - 13312 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 1452 #^2 + 348624 #^4 - 5457024 #^6 + 11964672 #^8 - 
+          7962624 #^10 + 2985984 #^12& , 2, 0], Root[
+         1 - 36 #^2 + 272 #^4 + 384 #^6 - 768 #^8 - 12288 #^10 + 4096 #^12& , 
+          1, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 1452 #^2 + 348624 #^4 - 5457024 #^6 + 11964672 #^8 - 
+          7962624 #^10 + 2985984 #^12& , 7, 0], Root[
+         1 - 36 #^2 + 272 #^4 + 384 #^6 - 768 #^8 - 12288 #^10 + 4096 #^12& , 
+          1, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[841 - 73056 #^2 + 1265328 #^4 - 6887808 #^6 + 11964672 #^8 - 
+          7713792 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 48 #^2 + 752 #^4 - 4736 #^6 + 14592 #^8 - 19456 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[841 - 73056 #^2 + 1265328 #^4 - 6887808 #^6 + 11964672 #^8 - 
+          7713792 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 48 #^2 + 752 #^4 - 4736 #^6 + 14592 #^8 - 19456 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         961 - 95784 #^2 + 1076976 #^4 - 3568320 #^6 + 1824768 #^8 + 
+          1741824 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[1 - 3384 #^2 + 1219104 #^4 - 5679936 #^6 + 7921152 #^8 - 
+          7464960 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 488 #^2 + 5728 #^4 - 20160 #^6 + 29184 #^8 - 18432 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 3384 #^2 + 1219104 #^4 - 5679936 #^6 + 7921152 #^8 - 
+          7464960 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 488 #^2 + 5728 #^4 - 20160 #^6 + 29184 #^8 - 18432 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         22801 - 432792 #^2 + 2409264 #^4 - 3340224 #^6 - 3898368 #^8 + 
+          746496 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[1 - 20280 #^2 + 1035648 #^4 - 781056 #^6 - 8999424 #^8 - 
+          6718464 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 56 #^2 + 1024 #^4 - 7168 #^6 + 18944 #^8 - 15360 #^10 + 
+          4096 #^12& , 5, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 20280 #^2 + 1035648 #^4 - 781056 #^6 - 8999424 #^8 - 
+          6718464 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 56 #^2 + 1024 #^4 - 7168 #^6 + 18944 #^8 - 15360 #^10 + 
+          4096 #^12& , 5, 0], Root[
+         361 - 71736 #^2 + 1573488 #^4 - 167616 #^6 - 3400704 #^8 - 
+          2239488 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[10201 - 246120 #^2 + 1816128 #^4 - 4962816 #^6 + 5101056 #^8 - 
+          6718464 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 328 #^2 + 2944 #^4 - 8960 #^6 + 9728 #^8 - 3072 #^10 + 
+          4096 #^12& , 2, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[10201 - 246120 #^2 + 1816128 #^4 - 4962816 #^6 + 5101056 #^8 - 
+          6718464 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 328 #^2 + 2944 #^4 - 8960 #^6 + 9728 #^8 - 3072 #^10 + 
+          4096 #^12& , 2, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[11881 - 341376 #^2 + 3016368 #^4 - 8434368 #^6 + 8957952 #^8 - 
+          5225472 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 128 #^2 + 1392 #^4 - 4672 #^6 + 4096 #^8 - 1024 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[11881 - 341376 #^2 + 3016368 #^4 - 8434368 #^6 + 8957952 #^8 - 
+          5225472 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 128 #^2 + 1392 #^4 - 4672 #^6 + 4096 #^8 - 1024 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[361 - 29856 #^2 + 588816 #^4 - 1926720 #^6 - 1907712 #^8 - 
+          4230144 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 416 #^2 + 6672 #^4 - 21696 #^6 + 28672 #^8 - 17408 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[361 - 29856 #^2 + 588816 #^4 - 1926720 #^6 - 1907712 #^8 - 
+          4230144 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 416 #^2 + 6672 #^4 - 21696 #^6 + 28672 #^8 - 17408 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         361 - 292488 #^2 + 2858544 #^4 - 6492096 #^6 + 1078272 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[1 - 504 #^2 + 65664 #^4 - 2647296 #^6 + 8335872 #^8 - 
+          3732480 #^10 + 2985984 #^12& , 3, 0], Root[
+         1 - 328 #^2 + 2944 #^4 - 8960 #^6 + 9728 #^8 - 3072 #^10 + 
+          4096 #^12& , 7, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 1, 0]}, {
+        Root[1 - 504 #^2 + 65664 #^4 - 2647296 #^6 + 8335872 #^8 - 
+          3732480 #^10 + 2985984 #^12& , 6, 0], Root[
+         1 - 328 #^2 + 2944 #^4 - 8960 #^6 + 9728 #^8 - 3072 #^10 + 
+          4096 #^12& , 7, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 8, 0]}, {
+        Root[1 - 18792 #^2 + 524016 #^4 - 3443904 #^6 + 6718464 #^8 - 
+          1244160 #^10 + 2985984 #^12& , 2, 0], Root[
+         1 - 40 #^2 + 624 #^4 - 4672 #^6 + 16384 #^8 - 21504 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 3, 0]}, {
+        Root[1 - 18792 #^2 + 524016 #^4 - 3443904 #^6 + 6718464 #^8 - 
+          1244160 #^10 + 2985984 #^12& , 7, 0], Root[
+         1 - 40 #^2 + 624 #^4 - 4672 #^6 + 16384 #^8 - 21504 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1 - 10584 #^2 + 441072 #^4 - 3430080 #^6 + 7962624 #^8 - 
+          3234816 #^10 + 2985984 #^12& , 6, 0]}, {
+        Root[1 - 7104 #^2 + 351216 #^4 - 3300480 #^6 + 2757888 #^8 + 
+          4230144 #^10 + 2985984 #^12& , 2, 0], Root[
+         1 - 48 #^2 + 752 #^4 - 4736 #^6 + 14592 #^8 - 19456 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[1 - 7104 #^2 + 351216 #^4 - 3300480 #^6 + 2757888 #^8 + 
+          4230144 #^10 + 2985984 #^12& , 7, 0], Root[
+         1 - 48 #^2 + 752 #^4 - 4736 #^6 + 14592 #^8 - 19456 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1 - 176136 #^2 + 2371248 #^4 - 9332928 #^6 + 14764032 #^8 - 
+          10202112 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[361 - 23352 #^2 + 432864 #^4 - 2666304 #^6 + 2115072 #^8 + 
+          4478976 #^10 + 2985984 #^12& , 4, 0], Root[
+         1 - 488 #^2 + 5728 #^4 - 20160 #^6 + 29184 #^8 - 18432 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[361 - 23352 #^2 + 432864 #^4 - 2666304 #^6 + 2115072 #^8 + 
+          4478976 #^10 + 2985984 #^12& , 5, 0], Root[
+         1 - 488 #^2 + 5728 #^4 - 20160 #^6 + 29184 #^8 - 18432 #^10 + 
+          4096 #^12& , 8, 0], Root[
+         1681 - 113304 #^2 + 1571184 #^4 - 7390656 #^6 + 11446272 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[
+         5041 - 143496 #^2 + 1133568 #^4 - 2958336 #^6 + 124416 #^8 + 
+          5225472 #^10 + 2985984 #^12& , 1, 0], Root[
+         1 - 56 #^2 + 1024 #^4 - 7168 #^6 + 18944 #^8 - 15360 #^10 + 
+          4096 #^12& , 4, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 8, 0]}, {
+        Root[5041 - 143496 #^2 + 1133568 #^4 - 2958336 #^6 + 124416 #^8 + 
+          5225472 #^10 + 2985984 #^12& , 8, 0], Root[
+         1 - 56 #^2 + 1024 #^4 - 7168 #^6 + 18944 #^8 - 15360 #^10 + 
+          4096 #^12& , 4, 0], Root[
+         1 - 360 #^2 + 12528 #^4 - 478656 #^6 + 5723136 #^8 - 14183424 #^10 + 
+          2985984 #^12& , 1, 0]}, {
+        Root[961 - 36984 #^2 + 466992 #^4 - 2185920 #^6 + 1741824 #^8 + 
+          6718464 #^10 + 2985984 #^12& , 4, 0], Root[
+         1 - 40 #^2 + 624 #^4 - 4672 #^6 + 16384 #^8 - 21504 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[961 - 36984 #^2 + 466992 #^4 - 2185920 #^6 + 1741824 #^8 + 
+          6718464 #^10 + 2985984 #^12& , 5, 0], Root[
+         1 - 40 #^2 + 624 #^4 - 4672 #^6 + 16384 #^8 - 21504 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         841 - 44232 #^2 + 705456 #^4 - 4688064 #^6 + 12939264 #^8 - 
+          11197440 #^10 + 2985984 #^12& , 1, 0]}, {
+        Root[1 - 528 #^2 + 69264 #^4 - 1498176 #^6 + 2737152 #^8 + 
+          6718464 #^10 + 2985984 #^12& , 2, 0], Root[
+         1 - 416 #^2 + 6672 #^4 - 21696 #^6 + 28672 #^8 - 17408 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 8, 0]}, {
+        Root[1 - 528 #^2 + 69264 #^4 - 1498176 #^6 + 2737152 #^8 + 
+          6718464 #^10 + 2985984 #^12& , 7, 0], Root[
+         1 - 416 #^2 + 6672 #^4 - 21696 #^6 + 28672 #^8 - 17408 #^10 + 
+          4096 #^12& , 1, 0], Root[
+         961 - 90696 #^2 + 1566576 #^4 - 7750080 #^6 + 15925248 #^8 - 
+          14183424 #^10 + 2985984 #^12& , 1, 0]}}, CompressedData["
+1:eJxd01tIVFEUBuDTZFmZZRcN6kEneugoU2PTlEiwpuyCYJaaqRGYUZqmCZZg
+UmREFzR7UINABBM1I7EUExyUdQiZxBRTG4byMlhj43iJUcvxMmfMh73Pw3rY
+Lx+bzeJf/1ZfzY69rhIE4djqWbt6NlX8KLOkClJbwkJ/U6kNc8NSPBG3TcDc
+QBwfHlG5dbFLyByqxOn7btMcMAfiuD62cM18uyCZCxqv9GrM0ODb7T+R/x2Y
+G4hjd9F4WF/cPyxKTqs0JS1RB+Jgr4vcH3lYRvYO6tTrQvaVznAH4nhJX9xa
+ssGGUT7PQ1Ocy0AciMMZlWPG7HGiq2SjoyHCBU2eBXeSa5Y7EMez27JSvCc8
+GGl+eVodOAndzy5naBKHuANx8A6wO9JiZvl9jFdLn4Nsi9yBOKarql/0n1vk
+8yh7YQ7EwdmSdUqcdOLd3sGlHbIFmuTUnpw7MjIH4mBsEevNu4f4fax8s3xg
+tEKQmANxw6e9Xl5VKwuo/Rb+3iXPoewblXqz2QHMgTgG+C4e3fNVxiBLY8nj
+aDt1IA6hIVMX83XL/H0lN+ZAHPOyh/s/Rtl5f5DvizkQxyeWEb97Qh/vA/Le
+Mgfi8ECbWKY/P44SluaF16wg7ydzIA7hWx59WTk4h7veJSdNV88rPWQOxMHL
+mDCorXHj62t/jO0fOpVeMQfiUKwRy4Ptf3GsQMxsDf6p9IQ5EIexjFe5cdGT
+PH9l78yBOFYWdLl2bp/HW9atnU9rZ5R/zRyIg/6QSqz9ZeTzAO8PcyBuqB85
+mZnjGsYM6wmxwyQYeJ+ZA3GIeTvQazs+wPMH3hPmQBx1bX6F/g0dPH/gOTAH
+4lit1pdb00d5/krPmQNx6bfW+8KN5h4+v8T7yRyI45TP5nh3YBfPE3n+zIE4
+/gcnACJE
+       "]], 
+      Polygon3DBox[{{5, 1, 9}, {5, 9, 3}, {5, 29, 15}, {5, 3, 29}, {1, 27, 
+        19}, {1, 19, 25}, {1, 25, 9}, {15, 29, 7}, {15, 45, 39}, {15, 7, 
+        45}, {27, 39, 41}, {27, 41, 37}, {27, 37, 19}, {9, 25, 17}, {39, 45, 
+        21}, {39, 21, 41}, {29, 3, 13}, {3, 43, 13}, {19, 37, 35}, {25, 31, 
+        17}, {45, 7, 11}, {7, 49, 11}, {41, 21, 23}, {37, 33, 35}, {17, 31, 
+        59}, {17, 59, 55}, {13, 43, 53}, {13, 53, 51}, {21, 47, 23}, {43, 55, 
+        48}, {43, 48, 53}, {35, 33, 58}, {35, 58, 57}, {31, 57, 34}, {31, 34, 
+        59}, {11, 49, 52}, {11, 52, 54}, {55, 59, 24}, {55, 24, 48}, {49, 51, 
+        50}, {49, 50, 52}, {23, 47, 56}, {23, 56, 60}, {51, 53, 12}, {51, 12, 
+        50}, {33, 60, 32}, {33, 32, 58}, {57, 58, 36}, {57, 36, 34}, {47, 54, 
+        44}, {47, 44, 56}, {48, 24, 22}, {54, 52, 14}, {54, 14, 44}, {60, 56, 
+        18}, {60, 18, 32}, {34, 36, 38}, {24, 42, 22}, {50, 12, 8}, {12, 46, 
+        8}, {32, 18, 26}, {36, 20, 38}, {44, 14, 4}, {22, 42, 40}, {22, 40, 
+        46}, {14, 30, 4}, {18, 10, 26}, {38, 20, 28}, {38, 28, 42}, {42, 28, 
+        40}, {8, 46, 16}, {8, 16, 30}, {46, 40, 16}, {26, 10, 2}, {26, 2, 
+        20}, {20, 2, 28}, {4, 30, 6}, {4, 6, 10}, {30, 16, 6}, {10, 6, 2}, {
+        39, 27, 1, 5, 15}, {3, 9, 17, 55, 43}, {51, 49, 7, 29, 13}, {57, 31, 
+        25, 19, 35}, {47, 21, 45, 11, 54}, {33, 37, 41, 23, 60}, {42, 24, 59, 
+        34, 38}, {46, 12, 53, 48, 22}, {36, 58, 32, 26, 20}, {14, 52, 50, 8, 
+        30}, {44, 4, 10, 18, 56}, {16, 40, 28, 2, 6}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[1, 2] + 2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), (2 - 2 
+          2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[
+         1, 2], (2 - 2 2^Rational[1, 2])^(-1), (2 - 2 
+          2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[
+         1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2], Rational[1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2]}, {
+        Rational[1, 2] + 2^Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2], 
+         Rational[1, 2] + 2^Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+         Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {(2 - 2 
+          2^Rational[1, 2])^(-1), Rational[1, 2], Rational[1, 2] + 
+         2^Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[
+         1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {(2 - 2 
+          2^Rational[1, 2])^(-1), Rational[1, 2] + 2^Rational[-1, 2], 
+         Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+         2^Rational[-1, 2], Rational[
+         1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), (2 - 2 
+          2^Rational[1, 2])^(-1), 
+         Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), (2 - 2 
+          2^Rational[1, 2])^(-1), Rational[1, 2]}}, CompressedData["
+1:eJxTTMoPSmViYGCQAGJmBhh4sP/ZXHtj/4DP9jAaXfwphN4PE4fx0dXDxNHU
+2+Mw3x6H+fY4zLdHNx+Xe3G5C5f9uOwhFC5E+gdXOBKrjmC44jKXUDwRCl9C
+9gMAGKvjtw==
+       "]], 
+      Polygon3DBox[{{6, 12, 10, 8, 4, 18, 20, 2}, {1, 19, 17, 3, 7, 9, 11, 
+        5}, {3, 24, 23, 4, 8, 15, 16, 7}, {5, 14, 13, 6, 2, 21, 22, 1}, {9, 
+        16, 15, 10, 12, 13, 14, 11}, {19, 22, 21, 20, 18, 23, 24, 17}, {16, 9,
+         7}, {5, 11, 14}, {3, 17, 24}, {22, 19, 1}, {8, 10, 15}, {13, 12, 
+        6}, {23, 18, 4}, {2, 20, 21}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{0, 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        0, Rational[1, 2] (-1 - 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        0, Rational[1, 2] (1 + 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        0, Rational[1, 2] (1 + 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {(Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], (Rational[17, 8] + 
+          Rational[31, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), (Rational[17, 8] + 
+          Rational[31, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(-2) (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 0, 
+         Root[1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[-3, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+        Rational[-3, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {-(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2], Rational[1, 2] (-3 - 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {-(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2], Rational[1, 2] (3 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 
+          5^Rational[1, 2], -(Rational[17, 8] + 
+           Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 
+          5^Rational[1, 2]), -(Rational[17, 8] + 
+           Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {(1 + 
+          2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {(1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2], Rational[1, 2] (3 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+        2 (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         0, (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[13, 8] + 
+          Rational[29, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-3 - 5^
+          Rational[1, 2]), -(Rational[17, 8] + 
+           Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {(
+          Rational[13, 8] + Rational[29, 8] 5^Rational[-1, 2])^Rational[1, 2],
+          Rational[1, 4] (3 + 
+          5^Rational[1, 2]), -(Rational[17, 8] + 
+           Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {(
+          Rational[9, 4] + Rational[9, 2] 5^Rational[-1, 2])^
+         Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[9, 4] + 
+          Rational[9, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[5, 2] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         0, (Rational[17, 8] + Rational[31, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[5, 2] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), Root[
+         1 - 100 #^2 + 80 #^4& , 1, 0]}, {(Rational[5, 2] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), Root[
+         1 - 100 #^2 + 80 #^4& , 1, 
+          0]}, {-(Rational[29, 8] + Rational[61, 8] 5^Rational[-1, 2])^
+          Rational[1, 2], Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 
+          0]}, {-(Rational[29, 8] + Rational[61, 8] 5^Rational[-1, 2])^
+          Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[29, 8] + 
+          Rational[61, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[29, 8] + 
+          Rational[61, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[17, 4] + 
+          Rational[19, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[-1, 2], 
+         Root[1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[17, 4] + 
+          Rational[19, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[1, 2], 
+         Root[1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+        Rational[-1, 2] (17 + 38 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], Root[1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+        Rational[-1, 2] (17 + 38 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[5, 8] + 
+          Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^
+         Rational[1, 2]}, {(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         Rational[1, 2], Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {(Rational[5, 8] + 
+          Rational[1, 8] 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^
+         Rational[1, 2]}, {(Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {(
+          Rational[1, 10] (5 + 5^Rational[1, 2]))^Rational[1, 2], 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), (Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[1, 10] (5 + 5^Rational[1, 2]))^
+         Rational[1, 2], 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), (Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (Rational[1, 2] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+         5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], Root[5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], (Rational[25, 8] + Rational[11, 8] 5^Rational[1, 2])^
+         Rational[1, 2]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], Root[5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (Rational[25, 8] + 
+          Rational[11, 8] 5^Rational[1, 2])^Rational[1, 2]}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], 
+         Rational[-1, 2], Root[5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], (Rational[25, 8] + Rational[11, 8] 5^Rational[1, 2])^
+         Rational[1, 2]}, {
+        Rational[1, 2] (5 + 2 5^Rational[1, 2])^Rational[1, 2], Rational[
+         1, 2], Root[5 - 100 #^2 + 16 #^4& , 1, 0]}, {
+        Root[1 - 25 #^2 + 5 #^4& , 1, 0], 
+         0, -(Rational[17, 8] + Rational[31, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {
+        Root[1 - 25 #^2 + 5 #^4& , 1, 0], 
+         Rational[1, 2] (-1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 25 #^2 + 5 #^4& , 1, 0], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+          Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 1, 0], 
+         Rational[1, 2] (-3 - 5^Rational[1, 2]), Root[
+         1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 1, 0], 
+         Rational[1, 2] (3 + 5^Rational[1, 2]), Root[
+         1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+        Root[1 - 260 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (-3 - 5^Rational[1, 2]), (Rational[17, 8] + 
+          Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 260 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (3 + 5^Rational[1, 2]), (Rational[17, 8] + 
+          Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (-5 - 3 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+        Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+         Rational[1, 4] (5 + 3 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 2, 0]}}, {{
+        0, -1.618033988749895, 2.48989828488278}, {
+        0, -1.618033988749895, -2.48989828488278}, {
+        0, 1.618033988749895, 2.48989828488278}, {
+        0, 1.618033988749895, -2.48989828488278}, {
+        0.42532540417601994`, -2.9270509831248424`, 0.2628655560595668}, {
+        0.42532540417601994`, 2.9270509831248424`, 0.2628655560595668}, {
+        0.6881909602355868, -2.118033988749895, 1.9641671727636467`}, {
+        0.6881909602355868, 2.118033988749895, 
+        1.9641671727636467`}, {-2.752763840942347, 
+         0, -1.1135163644116068`}, {-2.0645728807067605`, -2.118033988749895, 
+        0.2628655560595668}, {-2.0645728807067605`, 2.118033988749895, 
+        0.2628655560595668}, {-1.3763819204711736`, -2.618033988749895, \
+-0.2628655560595668}, {-1.3763819204711736`, 
+        2.618033988749895, -0.2628655560595668}, {-0.6881909602355868, \
+-2.118033988749895, -1.9641671727636467`}, {-0.6881909602355868, 
+        2.118033988749895, -1.9641671727636467`}, {
+        1.3763819204711736`, -2.618033988749895, 0.2628655560595668}, {
+        1.3763819204711736`, 2.618033988749895, 0.2628655560595668}, {
+        2.752763840942347, 0, 1.1135163644116066`}, {
+        1.8017073246471935`, -1.3090169943749475`, -1.9641671727636467`}, {
+        1.8017073246471935`, 1.3090169943749475`, -1.9641671727636467`}, {
+        2.0645728807067605`, -2.118033988749895, -0.2628655560595668}, {
+        2.0645728807067605`, 2.118033988749895, -0.2628655560595668}, {
+        2.2270327288232132`, 0, 1.9641671727636467`}, {
+        2.2270327288232132`, -1.618033988749895, -1.1135163644116068`}, {
+        2.2270327288232132`, 
+        1.618033988749895, -1.1135163644116068`}, {-2.6523581329992334`, \
+-1.3090169943749475`, 0.2628655560595668}, {-2.6523581329992334`, 
+        1.3090169943749475`, 0.2628655560595668}, {
+        2.6523581329992334`, -1.3090169943749475`, -0.2628655560595668}, {
+        2.6523581329992334`, 1.3090169943749475`, -0.2628655560595668}, {
+        2.9152236890588, -0.5, 0.2628655560595668}, {2.9152236890588, 0.5, 
+        0.2628655560595668}, {-2.9152236890588, -0.5, -0.2628655560595668}, \
+{-2.9152236890588, 0.5, -0.2628655560595668}, {
+        0.9510565162951535, -1.3090169943749475`, 2.48989828488278}, {
+        0.9510565162951535, -1.3090169943749475`, -2.48989828488278}, {
+        0.9510565162951535, 1.3090169943749475`, 2.48989828488278}, {
+        0.9510565162951535, 1.3090169943749475`, -2.48989828488278}, {
+        0.85065080835204, -2.618033988749895, 1.1135163644116066`}, {
+        0.85065080835204, 2.618033988749895, 
+        1.1135163644116066`}, {-0.9510565162951535, -1.3090169943749475`, 
+        2.48989828488278}, {-0.9510565162951535, -1.3090169943749475`, \
+-2.48989828488278}, {-0.9510565162951535, 1.3090169943749475`, 
+        2.48989828488278}, {-0.9510565162951535, 
+        1.3090169943749475`, -2.48989828488278}, {-1.5388417685876268`, -0.5, 
+        2.48989828488278}, {-1.5388417685876268`, -0.5, -2.48989828488278}, \
+{-1.5388417685876268`, 0.5, 2.48989828488278}, {-1.5388417685876268`, 
+        0.5, -2.48989828488278}, {1.5388417685876268`, -0.5, 
+        2.48989828488278}, {1.5388417685876268`, -0.5, -2.48989828488278}, {
+        1.5388417685876268`, 0.5, 2.48989828488278}, {1.5388417685876268`, 
+        0.5, -2.48989828488278}, {-2.2270327288232132`, 
+         0, -1.9641671727636467`}, {-2.2270327288232132`, -1.618033988749895, 
+        1.1135163644116066`}, {-2.2270327288232132`, 1.618033988749895, 
+        1.1135163644116066`}, {-0.85065080835204, -2.618033988749895, \
+-1.1135163644116068`}, {-0.85065080835204, 
+        2.618033988749895, -1.1135163644116068`}, {-1.8017073246471933`, \
+-1.3090169943749475`, 1.9641671727636467`}, {-1.8017073246471933`, 
+        1.3090169943749475`, 
+        1.9641671727636467`}, {-0.42532540417601994`, -2.9270509831248424`, \
+-0.2628655560595668}, {-0.42532540417601994`, 
+        2.9270509831248424`, -0.2628655560595668}}], 
+      Polygon3DBox[{{3, 42, 46, 44, 40, 1, 34, 48, 50, 36}, {47, 43, 4, 37, 
+        51, 49, 35, 2, 41, 45}, {2, 35, 19, 24, 21, 16, 5, 59, 55, 14}, {49, 
+        51, 20, 25, 29, 31, 30, 28, 24, 19}, {37, 4, 15, 56, 60, 6, 17, 22, 
+        25, 20}, {43, 47, 52, 9, 33, 27, 11, 13, 56, 15}, {45, 41, 14, 55, 12,
+         10, 26, 32, 9, 52}, {6, 60, 13, 11, 54, 58, 42, 3, 8, 39}, {27, 33, 
+        32, 26, 53, 57, 44, 46, 58, 54}, {10, 12, 59, 5, 38, 7, 1, 40, 57, 
+        53}, {16, 21, 28, 30, 18, 23, 48, 34, 7, 38}, {31, 29, 22, 17, 39, 8, 
+        36, 50, 23, 18}, {9, 32, 33}, {18, 30, 31}, {47, 45, 52}, {50, 48, 
+        23}, {10, 53, 26}, {27, 54, 11}, {21, 24, 28}, {29, 25, 22}, {40, 44, 
+        57}, {58, 46, 42}, {35, 49, 19}, {20, 51, 37}, {12, 55, 59}, {60, 56, 
+        13}, {41, 2, 14}, {15, 4, 43}, {34, 1, 7}, {8, 3, 36}, {38, 5, 16}, {
+        17, 6, 39}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-1, 2] (1 - 2 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (1 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 2] (1 - 2 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {
+        Rational[1, 2] (1 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {
+        Rational[-1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], (1 - 5^
+          Rational[1, 2])^(-1), -(Rational[25, 8] + 
+           Rational[41, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[-1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 
+          5^Rational[1, 2]), -(Rational[25, 8] + 
+           Rational[41, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], (1 - 5^
+          Rational[1, 2])^(-1), (Rational[25, 8] + 
+          Rational[41, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-3, 4] (1 + 5^Rational[1, 2]), (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[25, 8] + 
+          Rational[41, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (2 - 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[3, 4] (1 + 5^Rational[1, 2]), (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 
+          2], -(Rational[25, 8] + Rational[41, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[1, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], -(Rational[25, 8] + Rational[41, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[5, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[5, 4] + 
+          Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-3, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (Rational[9, 8] + Rational[9, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Rational[-3, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], (Rational[9, 8] + Rational[9, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {-(1 + 2 5^Rational[-1, 2])^Rational[1, 2], -1, 
+         Rational[1, 4] (26 + 58 5^Rational[-1, 2])^
+          Rational[1, 2]}, {-(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 1, 
+         Rational[1, 4] (26 + 58 5^Rational[-1, 2])^
+          Rational[1, 2]}, {-(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2], (-2)/(-1 + 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {-(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (Rational[25, 8] + 
+          Rational[41, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], (Rational[25, 8] + Rational[41, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(1 + 2 5^Rational[-1, 2])^Rational[1, 2], -1, Root[
+         1 - 260 #^2 + 80 #^4& , 1, 0]}, {(1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2], 1, Root[
+         1 - 260 #^2 + 80 #^4& , 1, 0]}, {(1 + 2 5^Rational[-1, 2])^
+         Rational[1, 2], (-2)/(-1 + 
+         5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {-(2 + 2 5^Rational[-1, 2])^Rational[1, 2], 0, Root[
+         1 - 260 #^2 + 80 #^4& , 1, 0]}, {(2 + 2 5^Rational[-1, 2])^
+         Rational[1, 2], 0, 
+         Rational[1, 4] (26 + 58 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[-1, 2])^Rational[1, 2], -1 + 
+         Rational[-1, 2] 5^Rational[1, 2], Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[-1, 2] (5 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 2] (2 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 1, 
+          0]}, {-(Rational[17, 8] + Rational[31, 8] 5^Rational[-1, 2])^
+          Rational[1, 2], (1 - 5^Rational[1, 2])^(-1), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {-(Rational[17, 8] + 
+           Rational[31, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {(Rational[9, 4] + 
+          Rational[9, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[-1, 2], 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {(Rational[9, 4] + 
+          Rational[9, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[1, 2], 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {(Rational[5, 2] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], -1, Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {(Rational[5, 2] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], 1, Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {(Rational[13, 4] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], (Rational[1, 8] + Rational[1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[13, 4] + 
+          Rational[11, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], (Rational[1, 8] + Rational[1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Rational[-1, 4] (10 + 22 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 4] (10 + 22 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (10 + 22 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {
+        Rational[1, 4] (10 + 22 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), 
+         Rational[-3, 2] (Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2]}, {
+        Rational[-1, 2] (13 + 22 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[-1, 2], Root[1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[-1, 2] (13 + 22 5^Rational[-1, 2])^Rational[1, 2], Rational[
+         1, 2], Root[1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[-1, 4] (26 + 38 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[-1, 4] (26 + 38 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (26 + 38 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (-5 - 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[1, 4] (26 + 38 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (5 + 5^Rational[1, 2]), Root[
+         1 - 20 #^2 + 80 #^4& , 1, 0]}, {
+        Rational[1, 4] (34 + 62 5^Rational[-1, 2])^Rational[1, 2], (1 - 5^
+          Rational[1, 2])^(-1), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Rational[1, 4] (34 + 62 5^Rational[-1, 2])^Rational[1, 2], 
+         Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[9, 8] + 
+          Rational[9, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {(Rational[1, 10] (5 + 5^Rational[1, 2]))^
+         Rational[1, 2], 
+         0, (Rational[25, 8] + Rational[41, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Root[1 - 25 #^2 + 5 #^4& , 1, 0], -1, (Rational[1, 8] + 
+          Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 25 #^2 + 5 #^4& , 1, 0], 
+         1, (Rational[1, 8] + Rational[1, 8] 5^Rational[-1, 2])^
+         Rational[1, 2]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 1, 0], 
+         0, -(Rational[25, 8] + Rational[41, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 2, 0], (-2)/(-1 + 5^Rational[1, 2]), Root[
+         1 - 260 #^2 + 80 #^4& , 1, 0]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 2, 0], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), Root[
+         1 - 260 #^2 + 80 #^4& , 1, 0]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 3, 0], (-2)/(-1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (26 + 58 5^Rational[-1, 2])^Rational[1, 2]}, {
+        Root[1 - 5 #^2 + 5 #^4& , 3, 0], 
+         Rational[1, 2] (1 + 5^Rational[1, 2]), 
+         Rational[1, 4] (26 + 58 5^Rational[-1, 2])^
+          Rational[1, 2]}}, {{-0.16245984811645317`, -2.118033988749895, 
+        1.2759762125280598`}, {-0.16245984811645317`, 2.118033988749895, 
+        1.2759762125280598`}, {
+        0.16245984811645317`, -2.118033988749895, -1.27597621252806}, {
+        0.16245984811645317`, 
+        2.118033988749895, -1.27597621252806}, {-0.2628655560595668, \
+-0.8090169943749473, -2.327438436766327}, {-0.2628655560595668, \
+-2.4270509831248424`, -0.42532540417601994`}, {-0.2628655560595668, 
+        0.8090169943749475, -2.327438436766327}, {-0.2628655560595668, 
+        2.4270509831248424`, -0.42532540417601994`}, {
+        0.2628655560595668, -0.8090169943749473, 2.327438436766327}, {
+        0.2628655560595668, -2.4270509831248424`, 0.42532540417601994`}, {
+        0.2628655560595668, 0.8090169943749475, 2.327438436766327}, {
+        0.2628655560595668, 2.4270509831248424`, 0.42532540417601994`}, {
+        0.6881909602355868, -0.5, -2.327438436766327}, {0.6881909602355868, 
+        0.5, -2.327438436766327}, {1.2139220723547204`, -2.118033988749895, 
+        0.42532540417601994`}, {1.2139220723547204`, 2.118033988749895, 
+        0.42532540417601994`}, {-2.0645728807067605`, -0.5, 
+        1.2759762125280598`}, {-2.0645728807067605`, 0.5, 
+        1.2759762125280598`}, {-1.3763819204711736`, -1, 
+         1.8017073246471935`}, {-1.3763819204711736`, 1, 
+         1.8017073246471935`}, {-1.3763819204711736`, -1.6180339887498947`, \
+-1.27597621252806}, {-1.3763819204711736`, 
+        1.618033988749895, -1.27597621252806}, {-0.6881909602355868, -0.5, 
+        2.327438436766327}, {-0.6881909602355868, 0.5, 2.327438436766327}, {
+        1.3763819204711736`, -1, -1.8017073246471933`}, {
+        1.3763819204711736`, 1, -1.8017073246471933`}, {
+        1.3763819204711736`, -1.6180339887498947`, 1.2759762125280598`}, {
+        1.3763819204711736`, 1.618033988749895, 
+        1.2759762125280598`}, {-1.7013016167040798`, 
+         0, -1.8017073246471933`}, {
+        1.7013016167040798`, 0, 
+         1.8017073246471935`}, {-1.2139220723547204`, -2.118033988749895, \
+-0.42532540417601994`}, {-1.2139220723547204`, 
+        2.118033988749895, -0.42532540417601994`}, {-1.9641671727636467`, \
+-0.8090169943749473, -1.27597621252806}, {-1.9641671727636467`, 
+        0.8090169943749475, -1.27597621252806}, {
+        2.0645728807067605`, -0.5, -1.27597621252806}, {2.0645728807067605`, 
+        0.5, -1.27597621252806}, {
+        2.2270327288232132`, -1, -0.42532540417601994`}, {
+        2.2270327288232132`, 1, -0.42532540417601994`}, {
+        2.3894925769396664`, -0.5, 0.42532540417601994`}, {
+        2.3894925769396664`, 0.5, 
+        0.42532540417601994`}, {-1.1135163644116066`, -1.8090169943749475`, 
+        1.2759762125280598`}, {-1.1135163644116066`, 1.8090169943749475`, 
+        1.2759762125280598`}, {
+        1.1135163644116066`, -1.8090169943749475`, -1.27597621252806}, {
+        1.1135163644116066`, 
+        1.8090169943749475`, -1.27597621252806}, {-2.3894925769396664`, -0.5, \
+-0.42532540417601994`}, {-2.3894925769396664`, 
+        0.5, -0.42532540417601994`}, {-1.6392474765307403`, \
+-1.8090169943749475`, 0.42532540417601994`}, {-1.6392474765307403`, 
+        1.8090169943749475`, 0.42532540417601994`}, {
+        1.6392474765307403`, -1.8090169943749475`, -0.42532540417601994`}, {
+        1.6392474765307403`, 1.8090169943749475`, -0.42532540417601994`}, {
+        1.9641671727636467`, -0.8090169943749473, 1.2759762125280598`}, {
+        1.9641671727636467`, 0.8090169943749475, 1.2759762125280598`}, {
+        0.85065080835204, 0, 2.327438436766327}, {-2.2270327288232132`, -1, 
+         0.42532540417601994`}, {-2.2270327288232132`, 1, 
+         0.42532540417601994`}, {-0.85065080835204, 
+         0, -2.327438436766327}, {-0.5257311121191336, -1.6180339887498947`, \
+-1.8017073246471933`}, {-0.5257311121191336, 
+        1.618033988749895, -1.8017073246471933`}, {
+        0.5257311121191336, -1.6180339887498947`, 1.8017073246471935`}, {
+        0.5257311121191336, 1.618033988749895, 1.8017073246471935`}}], 
+      Polygon3DBox[{{53, 11, 24, 23, 9}, {51, 39, 40, 52, 30}, {60, 28, 16, 
+        12, 2}, {20, 42, 48, 55, 18}, {19, 17, 54, 47, 41}, {1, 10, 15, 27, 
+        59}, {36, 26, 44, 50, 38}, {4, 58, 22, 32, 8}, {34, 29, 33, 45, 46}, {
+        21, 57, 3, 6, 31}, {37, 49, 43, 25, 35}, {13, 5, 56, 7, 14}, {9, 59, 
+        27, 51, 30, 53}, {53, 30, 52, 28, 60, 11}, {11, 60, 2, 42, 20, 24}, {
+        24, 20, 18, 17, 19, 23}, {23, 19, 41, 1, 59, 9}, {13, 25, 43, 3, 57, 
+        5}, {5, 57, 21, 33, 29, 56}, {56, 29, 34, 22, 58, 7}, {7, 58, 4, 44, 
+        26, 14}, {14, 26, 36, 35, 25, 13}, {40, 38, 50, 16, 28, 52}, {16, 50, 
+        44, 4, 8, 12}, {12, 8, 32, 48, 42, 2}, {48, 32, 22, 34, 46, 55}, {55, 
+        46, 45, 54, 17, 18}, {54, 45, 33, 21, 31, 47}, {47, 31, 6, 10, 1, 
+        41}, {10, 6, 3, 43, 49, 15}, {15, 49, 37, 39, 51, 27}, {39, 37, 35, 
+        36, 38, 40}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{Rational[-3, 2], Rational[-1, 2], 0}, {
+        Rational[-3, 2], Rational[1, 2], 
+         0}, {-1, -1, -2^Rational[-1, 2]}, {-1, -1, 2^Rational[-1, 2]}, {-1, 
+         1, -2^Rational[-1, 2]}, {-1, 1, 2^Rational[-1, 2]}, {
+        Rational[-1, 2], Rational[-3, 2], 0}, {
+        Rational[-1, 2], Rational[-1, 2], -2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[-1, 2], 2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], -2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[1, 2], 2^Rational[1, 2]}, {
+        Rational[-1, 2], Rational[3, 2], 0}, {
+        Rational[1, 2], Rational[-3, 2], 0}, {
+        Rational[1, 2], Rational[-1, 2], -2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[-1, 2], 2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2], -2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[1, 2], 2^Rational[1, 2]}, {
+        Rational[1, 2], Rational[3, 2], 0}, {1, -1, -2^Rational[-1, 2]}, {
+        1, -1, 2^Rational[-1, 2]}, {1, 1, -2^Rational[-1, 2]}, {
+        1, 1, 2^Rational[-1, 2]}, {Rational[3, 2], Rational[-1, 2], 0}, {
+        Rational[3, 2], Rational[1, 2], 0}}, {{-1.5, -0.5, 0}, {-1.5, 0.5, 
+         0}, {-1, -1, -0.7071067811865475}, {-1, -1, 0.7071067811865475}, {-1,
+          1, -0.7071067811865475}, {-1, 1, 0.7071067811865475}, {-0.5, -1.5, 
+         0}, {-0.5, -0.5, -1.4142135623730951`}, {-0.5, -0.5, 
+        1.4142135623730951`}, {-0.5, 0.5, -1.4142135623730951`}, {-0.5, 0.5, 
+        1.4142135623730951`}, {-0.5, 1.5, 0}, {0.5, -1.5, 0}, {
+        0.5, -0.5, -1.4142135623730951`}, {0.5, -0.5, 1.4142135623730951`}, {
+        0.5, 0.5, -1.4142135623730951`}, {0.5, 0.5, 1.4142135623730951`}, {
+        0.5, 1.5, 0}, {1, -1, -0.7071067811865475}, {
+        1, -1, 0.7071067811865475}, {1, 1, -0.7071067811865475}, {
+        1, 1, 0.7071067811865475}, {1.5, -0.5, 0}, {1.5, 0.5, 0}}], 
+      Polygon3DBox[{{17, 11, 9, 15}, {14, 8, 10, 16}, {22, 24, 21, 18}, {12, 
+        5, 2, 6}, {13, 19, 23, 20}, {4, 1, 3, 7}, {19, 13, 7, 3, 8, 14}, {15, 
+        9, 4, 7, 13, 20}, {16, 10, 5, 12, 18, 21}, {22, 18, 12, 6, 11, 17}, {
+        20, 23, 24, 22, 17, 15}, {14, 16, 21, 24, 23, 19}, {9, 11, 6, 2, 1, 
+        4}, {3, 1, 2, 5, 10, 8}}]]}], ",", 
+   Graphics3DBox[
+    {RGBColor[1, 1, 0], Opacity[0.8], 
+     GraphicsComplex3DBox[
+      NCache[{{0, -1, Rational[-1, 2] Rational[3, 2]^Rational[1, 2]}, {
+        0, 1, Rational[-1, 2] 
+         Rational[3, 2]^Rational[1, 2]}, {-3^Rational[-1, 2], -1, 
+         Rational[1, 2] 6^Rational[-1, 2]}, {-3^Rational[-1, 2], 1, 
+         Rational[1, 2] 6^Rational[-1, 2]}, {
+        Rational[-1, 2] 3^Rational[-1, 2], Rational[-1, 2], Rational[5, 2] 
+         6^Rational[-1, 2]}, {
+        Rational[-1, 2] 3^Rational[-1, 2], Rational[1, 2], Rational[5, 2] 
+         6^Rational[-1, 2]}, {
+        3^Rational[-1, 2], 0, Rational[5, 2] 6^Rational[-1, 2]}, {
+        2 3^Rational[-1, 2], 0, Rational[1, 2] 6^Rational[-1, 2]}, {
+        Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2], Rational[-1, 2] 
+         Rational[3, 2]^Rational[1, 2]}, {
+        Rational[-1, 2] 3^Rational[1, 2], Rational[1, 2], Rational[-1, 2] 
+         Rational[3, 2]^Rational[1, 2]}, {
+        Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2], Rational[-1, 2] 
+         Rational[3, 2]^Rational[1, 2]}, {
+        Rational[1, 2] 3^Rational[1, 2], Rational[1, 2], Rational[-1, 2] 
+         Rational[3, 2]^Rational[1, 2]}}, {{0, -1, -0.6123724356957945}, {
+        0, 1, -0.6123724356957945}, {-0.5773502691896258, -1, 
+         0.20412414523193154`}, {-0.5773502691896258, 1, 
+         0.20412414523193154`}, {-0.2886751345948129, -0.5, 
+        1.0206207261596576`}, {-0.2886751345948129, 0.5, 
+        1.0206207261596576`}, {0.5773502691896258, 0, 1.0206207261596576`}, {
+        1.1547005383792517`, 0, 
+         0.20412414523193154`}, {-0.8660254037844386, -0.5, \
+-0.6123724356957945}, {-0.8660254037844386, 0.5, -0.6123724356957945}, {
+        0.8660254037844386, -0.5, -0.6123724356957945}, {0.8660254037844386, 
+        0.5, -0.6123724356957945}}], 
+      Polygon3DBox[{{11, 12, 8}, {3, 9, 1}, {2, 10, 4}, {6, 5, 7}, {11, 8, 7, 
+        5, 3, 1}, {2, 4, 6, 7, 8, 12}, {9, 3, 5, 6, 4, 10}, {2, 12, 11, 1, 9, 
+        10}}]]}]}], "}"}]], "Output",
+ CellChangeTimes->{3.6139506467673683`*^9, 3.613950685407827*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PolyhedronData", "[", "\"\<Archimedean\>\"", "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Cuboctahedron\"\>", ",", "\<\"GreatRhombicosidodecahedron\"\>",
+    ",", "\<\"GreatRhombicuboctahedron\"\>", ",", "\<\"Icosidodecahedron\"\>",
+    ",", "\<\"SmallRhombicosidodecahedron\"\>", 
+   ",", "\<\"SmallRhombicuboctahedron\"\>", ",", "\<\"SnubCube\"\>", 
+   ",", "\<\"SnubDodecahedron\"\>", ",", "\<\"TruncatedCube\"\>", 
+   ",", "\<\"TruncatedDodecahedron\"\>", ",", "\<\"TruncatedIcosahedron\"\>", 
+   ",", "\<\"TruncatedOctahedron\"\>", ",", "\<\"TruncatedTetrahedron\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.613950800404065*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<shape.stl\>\"", ",", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{"PolyhedronData", "[", 
+     RowBox[{"\"\<GreatRhombicosidodecahedron\>\"", ",", "\"\<Faces\>\""}], 
+     "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.613950833551115*^9, 3.613950861641076*^9}, {
+  3.613950903013548*^9, 3.613950913301753*^9}}],
+
+Cell[BoxData["\<\"shape.stl\"\>"], "Output",
+ CellChangeTimes->{{3.613950904750125*^9, 3.613950913816991*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"DirectoryName", "[", 
+   RowBox[{"AbsoluteFileName", "[", "\"\<shape.stl\>\"", "]"}], "]"}], 
+  "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"PolyhedronData", "[", 
+   RowBox[{"\"\<GreatRhombicosidodecahedron\>\"", ",", "\"\<Faces\>\""}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.613950870934432*^9, 3.613950892022139*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[
+  GraphicsComplex3DBox[
+   NCache[{{-1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {-1, 
+      Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {-1, 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {-1, 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+     Rational[-1, 2], Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2]}, {
+     Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2]}, {
+     Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], -2 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[-1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+      Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+     Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2]}, {
+     Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2]}, {
+     Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+      Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+     Rational[1, 2], Rational[-1, 2], Rational[-3, 2] - 5^Rational[1, 2]}, {
+     Rational[1, 2], Rational[-1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+     Rational[1, 2], Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2]}, {
+     Rational[1, 2], Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2]}, {
+     Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2]}, {
+     Rational[1, 2], Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2]}, {
+     Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], -2 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[1, 2], -1 + Rational[-1, 2] 5^Rational[1, 2], 
+      Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+     Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2]}, {
+     Rational[1, 2], Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2]}, {
+     Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[1, 2], Rational[1, 2] (2 + 5^Rational[1, 2]), 
+      Rational[1, 2] (4 + 5^Rational[1, 2])}, {
+     1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {
+     1, Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+     1, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2])}, {
+     1, Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1, 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1, 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1, 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1, 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1}, {
+     Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1}, {
+     Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2], Rational[-1, 2]}, {
+     Rational[-3, 2] - 5^Rational[1, 2], Rational[-1, 2], Rational[1, 2]}, {
+     Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2], Rational[-1, 2]}, {
+     Rational[-3, 2] - 5^Rational[1, 2], Rational[1, 2], Rational[1, 2]}, {
+     Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+     Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+     Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2])}, {-2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2], -1 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {-2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2], 
+      Rational[1, 2] (2 + 5^Rational[1, 2])}, {-2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2], -1 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {-2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2], 
+      Rational[1, 2] (2 + 5^Rational[1, 2])}, {-1 + 
+      Rational[-1, 2] 5^Rational[1, 2], -2 + Rational[-1, 2] 5^Rational[1, 2],
+       Rational[-1, 2]}, {-1 + Rational[-1, 2] 5^Rational[1, 2], -2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2]}, {-1 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2] (4 + 5^Rational[1, 2]),
+       Rational[-1, 2]}, {-1 + Rational[-1, 2] 5^Rational[1, 2], 
+      Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2]}, {
+     Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+     Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2])}, {
+     Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2])}, {
+     Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2], Rational[-1, 2]}, {
+     Rational[3, 2] + 5^Rational[1, 2], Rational[-1, 2], Rational[1, 2]}, {
+     Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2], Rational[-1, 2]}, {
+     Rational[3, 2] + 5^Rational[1, 2], Rational[1, 2], Rational[1, 2]}, {
+     Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[-1, 2]}, {
+     Rational[1, 2] (2 + 5^Rational[1, 2]), -2 + 
+      Rational[-1, 2] 5^Rational[1, 2], Rational[1, 2]}, {
+     Rational[1, 2] (2 + 5^Rational[1, 2]), 
+      Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2]}, {
+     Rational[1, 2] (2 + 5^Rational[1, 2]), 
+      Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2]}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2]), -1}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-7 - 3 5^Rational[1, 2]), 1}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2]), 
+      Rational[1, 2] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1}, {
+     Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1}, {
+     Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-3 - 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[-3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (3 + 5^Rational[1, 2]), 
+      Rational[1, 4] (3 + 5^Rational[1, 2]), 
+      Rational[3, 4] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2], -1 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[-1, 2], 
+      Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+     Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2], -1 + 
+      Rational[-1, 2] 5^Rational[1, 2]}, {
+     Rational[1, 2] (4 + 5^Rational[1, 2]), Rational[1, 2], 
+      Rational[1, 2] (2 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 3 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (-5 - 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (-1 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (5 + 3 5^Rational[1, 2]), 
+      Rational[1, 4] (5 + 5^Rational[1, 2]), 
+      Rational[1, 2] (1 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1, 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (7 + 3 5^Rational[1, 2]), -1, 
+      Rational[1, 4] (3 + 5^Rational[1, 2])}, {
+     Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1, 
+      Rational[1, 4] (-3 - 5^Rational[1, 2])}, {
+     Rational[1, 4] (7 + 3 5^Rational[1, 2]), 1, 
+      Rational[1, 4] (3 + 
+       5^Rational[
+         1, 2])}}, {{-1, -1.3090169943749475`, -3.4270509831248424`}, {-1, \
+-1.3090169943749475`, 3.4270509831248424`}, {-1, 
+      1.3090169943749475`, -3.4270509831248424`}, {-1, 1.3090169943749475`, 
+      3.4270509831248424`}, {-0.5, -0.5, -3.73606797749979}, {-0.5, -0.5, 
+     3.73606797749979}, {-0.5, 0.5, -3.73606797749979}, {-0.5, 0.5, 
+     3.73606797749979}, {-0.5, -3.73606797749979, -0.5}, {-0.5, \
+-3.73606797749979, 
+     0.5}, {-0.5, -2.118033988749895, -3.118033988749895}, {-0.5, \
+-2.118033988749895, 3.118033988749895}, {-0.5, 3.73606797749979, -0.5}, {-0.5,
+      3.73606797749979, 0.5}, {-0.5, 
+     2.118033988749895, -3.118033988749895}, {-0.5, 2.118033988749895, 
+     3.118033988749895}, {0.5, -0.5, -3.73606797749979}, {0.5, -0.5, 
+     3.73606797749979}, {0.5, 0.5, -3.73606797749979}, {0.5, 0.5, 
+     3.73606797749979}, {0.5, -3.73606797749979, -0.5}, {
+     0.5, -3.73606797749979, 0.5}, {
+     0.5, -2.118033988749895, -3.118033988749895}, {0.5, -2.118033988749895, 
+     3.118033988749895}, {0.5, 3.73606797749979, -0.5}, {0.5, 
+     3.73606797749979, 0.5}, {0.5, 2.118033988749895, -3.118033988749895}, {
+     0.5, 2.118033988749895, 3.118033988749895}, {
+     1, -1.3090169943749475`, -3.4270509831248424`}, {
+     1, -1.3090169943749475`, 3.4270509831248424`}, {
+     1, 1.3090169943749475`, -3.4270509831248424`}, {
+     1, 1.3090169943749475`, 
+      3.4270509831248424`}, {-3.4270509831248424`, -1, -1.3090169943749475`}, \
+{-3.4270509831248424`, -1, 1.3090169943749475`}, {-3.4270509831248424`, 
+      1, -1.3090169943749475`}, {-3.4270509831248424`, 1, 
+      1.3090169943749475`}, {-2.9270509831248424`, -1.8090169943749475`, \
+-1.618033988749895}, {-2.9270509831248424`, -1.8090169943749475`, 
+     1.618033988749895}, {-2.9270509831248424`, 
+     1.8090169943749475`, -1.618033988749895}, {-2.9270509831248424`, 
+     1.8090169943749475`, 
+     1.618033988749895}, {-1.8090169943749475`, -1.618033988749895, \
+-2.9270509831248424`}, {-1.8090169943749475`, -1.618033988749895, 
+     2.9270509831248424`}, {-1.8090169943749475`, 
+     1.618033988749895, -2.9270509831248424`}, {-1.8090169943749475`, 
+     1.618033988749895, 
+     2.9270509831248424`}, {-1.3090169943749475`, -3.4270509831248424`, -1}, \
+{-1.3090169943749475`, -3.4270509831248424`, 
+      1}, {-1.3090169943749475`, -2.4270509831248424`, -2.618033988749895}, \
+{-1.3090169943749475`, -2.4270509831248424`, 
+     2.618033988749895}, {-1.3090169943749475`, 
+     2.4270509831248424`, -2.618033988749895}, {-1.3090169943749475`, 
+     2.4270509831248424`, 
+     2.618033988749895}, {-1.3090169943749475`, 
+      3.4270509831248424`, -1}, {-1.3090169943749475`, 3.4270509831248424`, 
+      1}, {-2.618033988749895, -1.3090169943749475`, -2.4270509831248424`}, \
+{-2.618033988749895, -1.3090169943749475`, 
+     2.4270509831248424`}, {-2.618033988749895, 
+     1.3090169943749475`, -2.4270509831248424`}, {-2.618033988749895, 
+     1.3090169943749475`, 
+     2.4270509831248424`}, {-3.73606797749979, -0.5, -0.5}, \
+{-3.73606797749979, -0.5, 0.5}, {-3.73606797749979, 
+     0.5, -0.5}, {-3.73606797749979, 0.5, 
+     0.5}, {-1.618033988749895, -2.9270509831248424`, -1.8090169943749475`}, \
+{-1.618033988749895, -2.9270509831248424`, 
+     1.8090169943749475`}, {-1.618033988749895, 
+     2.9270509831248424`, -1.8090169943749475`}, {-1.618033988749895, 
+     2.9270509831248424`, 
+     1.8090169943749475`}, {-3.118033988749895, -0.5, -2.118033988749895}, \
+{-3.118033988749895, -0.5, 2.118033988749895}, {-3.118033988749895, 
+     0.5, -2.118033988749895}, {-3.118033988749895, 0.5, 
+     2.118033988749895}, {-2.118033988749895, -3.118033988749895, -0.5}, \
+{-2.118033988749895, -3.118033988749895, 0.5}, {-2.118033988749895, 
+     3.118033988749895, -0.5}, {-2.118033988749895, 3.118033988749895, 
+     0.5}, {-2.4270509831248424`, -2.618033988749895, -1.3090169943749475`}, \
+{-2.4270509831248424`, -2.618033988749895, 
+     1.3090169943749475`}, {-2.4270509831248424`, 
+     2.618033988749895, -1.3090169943749475`}, {-2.4270509831248424`, 
+     2.618033988749895, 1.3090169943749475`}, {
+     1.618033988749895, -2.9270509831248424`, -1.8090169943749475`}, {
+     1.618033988749895, -2.9270509831248424`, 1.8090169943749475`}, {
+     1.618033988749895, 2.9270509831248424`, -1.8090169943749475`}, {
+     1.618033988749895, 2.9270509831248424`, 1.8090169943749475`}, {
+     2.4270509831248424`, -2.618033988749895, -1.3090169943749475`}, {
+     2.4270509831248424`, -2.618033988749895, 1.3090169943749475`}, {
+     2.4270509831248424`, 2.618033988749895, -1.3090169943749475`}, {
+     2.4270509831248424`, 2.618033988749895, 1.3090169943749475`}, {
+     3.73606797749979, -0.5, -0.5}, {3.73606797749979, -0.5, 0.5}, {
+     3.73606797749979, 0.5, -0.5}, {3.73606797749979, 0.5, 0.5}, {
+     2.118033988749895, -3.118033988749895, -0.5}, {
+     2.118033988749895, -3.118033988749895, 0.5}, {2.118033988749895, 
+     3.118033988749895, -0.5}, {2.118033988749895, 3.118033988749895, 0.5}, {
+     1.3090169943749475`, -3.4270509831248424`, -1}, {
+     1.3090169943749475`, -3.4270509831248424`, 1}, {
+     1.3090169943749475`, -2.4270509831248424`, -2.618033988749895}, {
+     1.3090169943749475`, -2.4270509831248424`, 2.618033988749895}, {
+     1.3090169943749475`, 2.4270509831248424`, -2.618033988749895}, {
+     1.3090169943749475`, 2.4270509831248424`, 2.618033988749895}, {
+     1.3090169943749475`, 3.4270509831248424`, -1}, {
+     1.3090169943749475`, 3.4270509831248424`, 1}, {
+     2.618033988749895, -1.3090169943749475`, -2.4270509831248424`}, {
+     2.618033988749895, -1.3090169943749475`, 2.4270509831248424`}, {
+     2.618033988749895, 1.3090169943749475`, -2.4270509831248424`}, {
+     2.618033988749895, 1.3090169943749475`, 2.4270509831248424`}, {
+     3.118033988749895, -0.5, -2.118033988749895}, {3.118033988749895, -0.5, 
+     2.118033988749895}, {3.118033988749895, 0.5, -2.118033988749895}, {
+     3.118033988749895, 0.5, 2.118033988749895}, {
+     1.8090169943749475`, -1.618033988749895, -2.9270509831248424`}, {
+     1.8090169943749475`, -1.618033988749895, 2.9270509831248424`}, {
+     1.8090169943749475`, 1.618033988749895, -2.9270509831248424`}, {
+     1.8090169943749475`, 1.618033988749895, 2.9270509831248424`}, {
+     2.9270509831248424`, -1.8090169943749475`, -1.618033988749895}, {
+     2.9270509831248424`, -1.8090169943749475`, 1.618033988749895}, {
+     2.9270509831248424`, 1.8090169943749475`, -1.618033988749895}, {
+     2.9270509831248424`, 1.8090169943749475`, 1.618033988749895}, {
+     3.4270509831248424`, -1, -1.3090169943749475`}, {
+     3.4270509831248424`, -1, 1.3090169943749475`}, {
+     3.4270509831248424`, 1, -1.3090169943749475`}, {
+     3.4270509831248424`, 1, 1.3090169943749475`}}], 
+   Polygon3DBox[{{2, 6, 8, 4, 44, 56, 68, 66, 54, 42}, {109, 29, 17, 19, 31, 
+     111, 103, 107, 105, 101}, {24, 30, 18, 6, 2, 12}, {7, 3, 15, 27, 31, 
+     19}, {58, 57, 33, 37, 73, 69, 70, 74, 38, 34}, {84, 116, 120, 88, 87, 
+     119, 115, 83, 91, 92}, {90, 89, 81, 113, 117, 85, 86, 118, 114, 82}, {36,
+      40, 76, 72, 71, 75, 39, 35, 59, 60}, {5, 17, 29, 23, 11, 1}, {4, 8, 20, 
+     32, 28, 16}, {67, 55, 43, 3, 7, 5, 1, 41, 53, 65}, {18, 30, 110, 102, 
+     106, 108, 104, 112, 32, 20}, {79, 83, 115, 103, 111, 97}, {38, 74, 62, 
+     48, 42, 54}, {4, 16, 50, 44}, {23, 29, 109, 95}, {96, 110, 30, 24}, {43, 
+     49, 15, 3}, {53, 41, 47, 61, 73, 37}, {98, 112, 104, 116, 84, 80}, {69, 
+     45, 9, 10, 46, 70}, {26, 100, 92, 91, 99, 25}, {82, 114, 102, 110, 96, 
+     78}, {55, 39, 75, 63, 49, 43}, {1, 11, 47, 41}, {28, 32, 112, 98}, {61, 
+     47, 11, 23, 95, 77, 93, 21, 9, 45}, {50, 16, 28, 98, 80, 100, 26, 14, 52,
+      64}, {97, 111, 31, 27}, {42, 48, 12, 2}, {44, 50, 64, 76, 40, 56}, {77, 
+     95, 109, 101, 113, 81}, {63, 51, 13, 25, 99, 79, 97, 27, 15, 49}, {46, 
+     10, 22, 94, 78, 96, 24, 12, 48, 62}, {52, 14, 13, 51, 71, 72}, {22, 21, 
+     93, 89, 90, 94}, {115, 119, 107, 103}, {34, 38, 54, 66}, {71, 51, 63, 
+     75}, {94, 90, 82, 78}, {114, 118, 106, 102}, {35, 39, 55, 67}, {70, 46, 
+     62, 74}, {99, 91, 83, 79}, {65, 53, 37, 33}, {104, 108, 120, 116}, {77, 
+     81, 89, 93}, {76, 64, 52, 72}, {59, 35, 67, 65, 33, 57}, {106, 118, 86, 
+     88, 120, 108}, {68, 56, 40, 36}, {101, 105, 117, 113}, {80, 84, 92, 
+     100}, {73, 61, 45, 69}, {34, 66, 68, 36, 60, 58}, {105, 107, 119, 87, 85,
+      117}, {7, 19, 17, 5}, {6, 18, 20, 8}, {14, 26, 25, 13}, {9, 21, 22, 
+     10}, {58, 60, 59, 57}, {85, 87, 88, 86}}]],
+  AutomaticImageSize->True,
+  ImageSize->{354.5475368189709, 336.2905963488049},
+  ViewPoint->{1.5365232321592963`, -2.844272120862581, 0.9996061522012681},
+  ViewVertical->{0.20705484867663373`, -0.2598318462506655, 
+   0.9431944133175656}]], "Output",
+ CellChangeTimes->{{3.6139508773772573`*^9, 3.613950892458005*^9}}]
+}, Open  ]]
+},
+WindowSize->{740, 751},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 590, 15, 46, "Input"],
+Cell[1172, 39, 118661, 2051, 1276, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[119870, 2095, 85, 1, 28, "Input"],
+Cell[119958, 2098, 592, 10, 80, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[120587, 2113, 372, 8, 46, "Input"],
+Cell[120962, 2123, 110, 1, 28, "Output"]
+}, Open  ]],
+Cell[121087, 2127, 187, 5, 28, "Input"],
+Cell[CellGroupData[{
+Cell[121299, 2136, 244, 5, 28, "Input"],
+Cell[121546, 2143, 22528, 403, 351, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
