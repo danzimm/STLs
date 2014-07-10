@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[   1643871,      27301]
-NotebookOptionsPosition[   1643360,      27278]
-NotebookOutlinePosition[   1643737,      27295]
-CellTagsIndexPosition[   1643694,      27292]
+NotebookDataLength[   1651299,      27535]
+NotebookOptionsPosition[   1650608,      27507]
+NotebookOutlinePosition[   1650985,      27524]
+CellTagsIndexPosition[   1650942,      27521]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -444,7 +444,12 @@ Cell[BoxData[
      88, 120, 108}, {68, 56, 40, 36}, {101, 105, 117, 113}, {80, 84, 92, 
      100}, {73, 61, 45, 69}, {34, 66, 68, 36, 60, 58}, {105, 107, 119, 87, 85,
       117}, {7, 19, 17, 5}, {6, 18, 20, 8}, {14, 26, 25, 13}, {9, 21, 22, 
-     10}, {58, 60, 59, 57}, {85, 87, 88, 86}}]]]], "Output",
+     10}, {58, 60, 59, 57}, {85, 87, 88, 86}}]],
+  AutomaticImageSize->True,
+  ImageSize->{357.19476891479803`, 314.549929250414},
+  ViewPoint->{1.8100850009976295`, -2.8401991258402153`, 0.32689633638186866`},
+  ViewVertical->{0.296439436990216, -0.41632324676950044`, 
+   0.8595339518577643}]], "Output",
  CellChangeTimes->{{3.613965347554191*^9, 3.6139653600483923`*^9}}]
 }, Open  ]],
 
@@ -27262,18 +27267,242 @@ KBCv7fnnp2J8lnO4v5DzMfMtKPuLTsmfsPkYv1/PyusbW7s7qu8zdF6c/ym/
   AutomaticImageSize->True,
   Axes->False,
   Boxed->False,
-  ImageSize->{452.624640043005, 366.8403428633823},
+  ImageSize->{675.5992219956153, 174.85218182945587`},
   Method->{},
   PlotRange->All,
   PlotRangePadding->{
     Scaled[0.02], 
     Scaled[0.02], 
     Scaled[0.02]},
-  ViewPoint->{-1.679629846735844, -2.5374856841007056`, -1.479868230937507},
-  ViewVertical->{-7.175351822444487, -6.681929786401478, 
-   0.16511422148087837`}]], "Output",
+  ViewPoint->{1.1470223327002305`, -3.0861800368607737`, -0.7809177603108789},
+  
+  ViewVertical->{-4.07547340179878, -22.134060157967372`, \
+-0.03656761979267172}]], "Output",
  CellChangeTimes->{3.613965233777334*^9, 3.613965390849799*^9, 
   3.613965430440398*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Graph", "[", 
+  RowBox[{
+   RowBox[{"PolyhedronData", "[", 
+    RowBox[{"\"\<StellaOctangula\>\"", ",", "\"\<SkeletonRules\>\""}], "]"}], 
+   ",", 
+   RowBox[{"VertexCoordinates", "\[Rule]", 
+    RowBox[{"Thread", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"i", ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", "8"}], "}"}]}], "]"}], "\[Rule]", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<StellaOctangula\>\"", ",", "\"\<VertexCoordinates\>\""}], 
+       "]"}]}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6139657639738903`*^9, 3.613965770524426*^9}, {
+  3.6139658016309147`*^9, 3.613965804389139*^9}, {3.61396596364065*^9, 
+  3.613966024014866*^9}, {3.6139660633799057`*^9, 3.613966226216968*^9}, {
+  3.613966312762285*^9, 3.613966319856389*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GraphPlot3D", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"1", "\[Rule]", "3"}], ",", 
+     RowBox[{"1", "\[Rule]", "6"}], ",", 
+     RowBox[{"1", "\[Rule]", "7"}], ",", 
+     RowBox[{"2", "\[Rule]", "4"}], ",", 
+     RowBox[{"2", "\[Rule]", "5"}], ",", 
+     RowBox[{"2", "\[Rule]", "8"}], ",", 
+     RowBox[{"3", "\[Rule]", "6"}], ",", 
+     RowBox[{"3", "\[Rule]", "7"}], ",", 
+     RowBox[{"4", "\[Rule]", "5"}], ",", 
+     RowBox[{"4", "\[Rule]", "8"}], ",", 
+     RowBox[{"5", "\[Rule]", "8"}], ",", 
+     RowBox[{"6", "\[Rule]", "7"}]}], "}"}], ",", 
+   RowBox[{"VertexCoordinateRules", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"1", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{"-", 
+          FractionBox[
+           SqrtBox[
+            FractionBox["3", "2"]], "2"]}]}], "}"}]}], ",", 
+      RowBox[{"2", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         FractionBox[
+          SqrtBox[
+           FractionBox["3", "2"]], "2"]}], "}"}]}], ",", 
+      RowBox[{"3", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           SqrtBox["3"]]}], ",", "0", ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"4", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["3"]}]]}], ",", 
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}], ",", 
+      RowBox[{"5", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["3"]}]]}], ",", 
+         FractionBox["1", "2"], ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}], ",", 
+      RowBox[{"6", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["3"]}]], ",", 
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"7", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["3"]}]], ",", 
+         FractionBox["1", "2"], ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"8", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          SqrtBox["3"]], ",", "0", ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.613966600028776*^9, 3.613966629171096*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GraphPlot3D", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"1", "\[Rule]", "3"}], ",", 
+     RowBox[{"1", "\[Rule]", "6"}], ",", 
+     RowBox[{"1", "\[Rule]", "7"}], ",", 
+     RowBox[{"2", "\[Rule]", "4"}], ",", 
+     RowBox[{"2", "\[Rule]", "5"}], ",", 
+     RowBox[{"2", "\[Rule]", "8"}], ",", 
+     RowBox[{"3", "\[Rule]", "6"}], ",", 
+     RowBox[{"3", "\[Rule]", "7"}], ",", 
+     RowBox[{"4", "\[Rule]", "5"}], ",", 
+     RowBox[{"4", "\[Rule]", "8"}], ",", 
+     RowBox[{"5", "\[Rule]", "8"}], ",", 
+     RowBox[{"6", "\[Rule]", "7"}]}], "}"}], ",", 
+   RowBox[{"VertexCoordinates", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"1", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{"-", 
+          FractionBox[
+           SqrtBox[
+            FractionBox["3", "2"]], "2"]}]}], "}"}]}], ",", 
+      RowBox[{"2", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         FractionBox[
+          SqrtBox[
+           FractionBox["3", "2"]], "2"]}], "}"}]}], ",", 
+      RowBox[{"3", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           SqrtBox["3"]]}], ",", "0", ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"4", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["3"]}]]}], ",", 
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}], ",", 
+      RowBox[{"5", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["3"]}]]}], ",", 
+         FractionBox["1", "2"], ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}], ",", 
+      RowBox[{"6", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["3"]}]], ",", 
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"7", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["3"]}]], ",", 
+         FractionBox["1", "2"], ",", 
+         FractionBox["1", 
+          RowBox[{"2", " ", 
+           SqrtBox["6"]}]]}], "}"}]}], ",", 
+      RowBox[{"8", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["1", 
+          SqrtBox["3"]], ",", "0", ",", 
+         RowBox[{"-", 
+          FractionBox["1", 
+           RowBox[{"2", " ", 
+            SqrtBox["6"]}]]}]}], "}"}]}]}], "}"}]}]}], "]"}]], "Output",
+ CellChangeTimes->{3.6139666019930487`*^9}]
 }, Open  ]]
 },
 WindowSize->{1004, 583},
@@ -27297,11 +27526,16 @@ Notebook[{
 Cell[557, 20, 358, 9, 63, "Input"],
 Cell[CellGroupData[{
 Cell[940, 33, 644, 14, 63, "Input"],
-Cell[1587, 49, 22286, 398, 406, "Output"]
+Cell[1587, 49, 22532, 403, 330, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23910, 452, 4022, 117, 386, "Input"],
-Cell[27935, 571, 1615409, 26704, 382, "Output"]
+Cell[24156, 457, 4022, 117, 386, "Input"],
+Cell[28181, 576, 1615416, 26705, 190, "Output"]
+}, Open  ]],
+Cell[1643612, 27284, 861, 20, 46, "Input"],
+Cell[CellGroupData[{
+Cell[1644498, 27308, 3058, 97, 163, InheritFromParent],
+Cell[1647559, 27407, 3033, 97, 158, "Output"]
 }, Open  ]]
 }
 ]
